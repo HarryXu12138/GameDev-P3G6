@@ -11,7 +11,7 @@ public class cam_script : MonoBehaviour {
     private float angleY = 0.0f;
 
     //the speed of the camera in the x-z plane
-    public float speed = 2.0f;
+    public float speed = 0.05f;
 
 	// Use this for initialization
 	void Start () {
