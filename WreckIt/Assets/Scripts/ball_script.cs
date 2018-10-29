@@ -28,10 +28,11 @@ public class ball_script : MonoBehaviour {
             transform.SetParent(null);
             //throw the ball upon mouse click
             rb.useGravity = true;
-            Vector3 velocity = new Vector3(0, 0, 0.5f);
+            Vector3 velocity = new Vector3(0, 0, 2.0f);
 
             //kinda odd that I can't use *= on this
             velocity = Quaternion.Euler(da_cam.transform.rotation.x, da_cam.transform.rotation.y, 0) * velocity;
+
             rb.AddRelativeForce(velocity);
             
         }
