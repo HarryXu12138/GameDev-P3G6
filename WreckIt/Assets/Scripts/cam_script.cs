@@ -10,23 +10,35 @@ public class cam_script : MonoBehaviour {
     private float angleX = 0.0f;
     private float angleY = 0.0f;
 
+    private float screenWidth;
+    private float screenHeight;
+
     //the speed of the camera in the x-z plane
     public float speed = 0.05f;
 
 	// Use this for initialization
 	void Start () {
-		
+        screenWidth = Screen.width;
+        screenHeight = Screen.height;
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update()
+    {
         //this is the code to rotate camera
-        angleX += speedX * Input.GetAxis("Mouse X");
-        angleY -= speedY * Input.GetAxis("Mouse Y");
+        //only rotates when
+        if (Input.mousePosition.x > 0 && Input.mousePosition.x < screenWidth &&
+            Input.mousePosition.y > 0 && Input.mousePosition.y < screenHeight && 
+            Input.GetKey(KeyCode.Mouse0))
+        {
 
-        //don't ask why Y goes before X, that's how it works
-        transform.eulerAngles = new Vector3(angleY, angleX, 0);
+            angleX += speedX * Input.GetAxis("Mouse X");
+            angleY -= speedY * Input.GetAxis("Mouse Y");
 
+            //don't ask why Y goes before X, that's how it works
+            transform.eulerAngles = new Vector3(angleY, angleX, 0);
+        }
+        //this is the code to move camera on the xz plane
         Vector3 p_Velocity = new Vector3();
         if (Input.GetKey(KeyCode.W))
         {
@@ -52,5 +64,6 @@ public class cam_script : MonoBehaviour {
         newPosition.x = transform.position.x;
         newPosition.z = transform.position.z;
         transform.position = newPosition;
+
     }
 }

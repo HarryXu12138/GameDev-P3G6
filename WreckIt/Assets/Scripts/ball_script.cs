@@ -27,10 +27,10 @@ public class ball_script : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKey(KeyCode.Mouse0) && !thrown){
+        if (Input.GetKey(KeyCode.E) && !thrown){
             thrown = true;
             transform.SetParent(null);
-            //throw the ball upon mouse click
+            //throw the ball upon clicking the E button
             rb.useGravity = true;
             Vector3 velocity = new Vector3(0, 0, throw_speed);
 
