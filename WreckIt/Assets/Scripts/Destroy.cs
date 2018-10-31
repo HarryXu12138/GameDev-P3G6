@@ -7,11 +7,14 @@ public class Destroy : MonoBehaviour {
 
     public GameObject debriPrefab;
     private GameObject bb;
+    public int prefabNumbers;
+    public float prefabDestroyTime;
     
     // Use this for initialization
     void Start(){
         bb = GameObject.Find("BounceBall");
         Assert.IsNotNull(bb);
+        
     }
 	
 	// Update is called once per frame
@@ -24,13 +27,12 @@ public class Destroy : MonoBehaviour {
         if (collision.collider.gameObject == bb)
         {
             GameObject.Destroy(gameObject);
-            GameObject temp = GameObject.Instantiate<GameObject>(debriPrefab);
-            temp.transform.position = transform.position;
+            //GameObject temp = GameObject.Instantiate<GameObject>(debriPrefab);
+            //temp.transform.position = transform.position;
             Vector3 force = collision.impulse;
-            force.x *= -1;
-            force.y = 1f;
-            force.z = 0f;
-            addForceToPrefab(temp, force);
+            force.Scale(new Vector3(-1, -1, -1));
+            //force = Random.onUnitSphere * collision.impulse.magnitude;
+            createDebris(force);
             
             print("Bulls Eyes");
             print(force);
@@ -42,4 +44,50 @@ public class Destroy : MonoBehaviour {
         Rigidbody rb = prefab.GetComponent<Rigidbody>();
         rb.AddForce(force, ForceMode.Impulse);
     }
+
+    private void createDebris(Vector3 force)
+    {
+        int counter = prefabNumbers;
+        /*
+        int offset = 0;
+        while((offset*2+1)*(offset*2+1) < counter)
+        {
+            offset += 1;
+        }
+        Vector3 startPoint = transform.position;
+        startPoint.x += offset;
+        startPoint.y += offset;
+        startPoint.z += offset;
+        */
+        while (counter > 0)
+        {
+            GameObject temp = GameObject.Instantiate<GameObject>(debriPrefab);
+            temp.transform.position = transform.position;
+            //check the direction
+            Vector3 tempF = force;
+            print(Mathf.Abs(tempF.x - 0f) < 0.0001f);
+            if (Mathf.Abs(tempF.x - 0f) < 0.0001f)
+            {
+                //print("work");
+                tempF.x += Random.Range(-3f, 3f);
+            }
+            if (Mathf.Abs(tempF.y - 0f) < 0.0001f)
+            {
+                tempF.y += Random.Range(-3f, 3f);
+            }
+            if (Mathf.Abs(tempF.z - 0f) < 0.0001f)
+            {
+                tempF.z += Random.Range(-3f, 3f);
+            }
+            print(tempF);
+            addForceToPrefab(temp, tempF);
+            Destroy(temp, prefabDestroyTime);
+            counter--;
+            
+        }
+    }
+
+
+
+
 }
