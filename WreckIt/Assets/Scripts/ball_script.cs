@@ -13,6 +13,7 @@ public class ball_script : MonoBehaviour {
     private float angleX = 0.0f;
     private float angleY = 0.0f;
 
+
     private GameObject da_cam;
     private Rigidbody rb;
     //private static Rigidbody cam_rb;
@@ -34,7 +35,8 @@ public class ball_script : MonoBehaviour {
         if (Input.GetKey(KeyCode.E) && !thrown){
             thrown = true;
             transform.SetParent(null);
-            //throw the ball upon clicking the E button
+            //throw the ball upon mouse click
+            //rb.isKinematic = true;
             rb.useGravity = true;
             Vector3 velocity = new Vector3(0, 0, throw_speed);
             velocity = Quaternion.Euler(da_cam.transform.eulerAngles.x, da_cam.transform.eulerAngles.y, 0) * velocity;
@@ -47,6 +49,17 @@ public class ball_script : MonoBehaviour {
         if(Input.GetKey(KeyCode.Space) && thrown)
         {
             pick();
+        }
+
+        if (Input.GetKey(KeyCode.Space) && thrown)
+        {
+            thrown = false;
+            //transform.SetParent(da_cam.transform);
+            //rb.useGravity = false;
+            //rb.isKinematic = true;
+            rb.velocity = Vector3.zero;
+            rb.angularVelocity = Vector3.zero;
+            rb.useGravity = false;
         }
 
 
