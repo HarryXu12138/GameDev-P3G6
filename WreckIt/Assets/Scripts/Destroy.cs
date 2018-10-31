@@ -9,6 +9,9 @@ public class Destroy : MonoBehaviour {
     private GameObject bb;
     public int prefabNumbers;
     public float prefabDestroyTime;
+    public float spread;
+    public float shift;
+    public float impulseMagnitude = 1;
     
     // Use this for initialization
     void Start(){
@@ -30,7 +33,7 @@ public class Destroy : MonoBehaviour {
             //GameObject temp = GameObject.Instantiate<GameObject>(debriPrefab);
             //temp.transform.position = transform.position;
             Vector3 force = collision.impulse;
-            force.Scale(new Vector3(-1, -1, -1));
+            force.Scale(new Vector3(-1f*impulseMagnitude, -1f * impulseMagnitude, -1f * impulseMagnitude));
             //force = Random.onUnitSphere * collision.impulse.magnitude;
             createDebris(force);
             
@@ -69,15 +72,15 @@ public class Destroy : MonoBehaviour {
             if (Mathf.Abs(tempF.x - 0f) < 0.0001f)
             {
                 //print("work");
-                tempF.x += Random.Range(-3f, 3f);
+                tempF.x += Random.Range(-spread + shift, spread + shift);
             }
             if (Mathf.Abs(tempF.y - 0f) < 0.0001f)
             {
-                tempF.y += Random.Range(-3f, 3f);
+                tempF.y += Random.Range(-spread + shift, spread + shift);
             }
             if (Mathf.Abs(tempF.z - 0f) < 0.0001f)
             {
-                tempF.z += Random.Range(-3f, 3f);
+                tempF.z += Random.Range(-spread + shift, spread + shift);
             }
             print(tempF);
             addForceToPrefab(temp, tempF);
