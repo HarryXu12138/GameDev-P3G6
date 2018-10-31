@@ -18,6 +18,6 @@ public class PlayerUI : MonoBehaviour {
 
     void ClickReturnButton()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenuScene");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("LevelSelector");
     }
 }

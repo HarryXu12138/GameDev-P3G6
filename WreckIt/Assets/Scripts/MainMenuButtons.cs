@@ -25,6 +25,6 @@ public class MainMenuButtons : MonoBehaviour {
     }
 
     void ClickStartButton() {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("LevelSelector");
     }
 }
