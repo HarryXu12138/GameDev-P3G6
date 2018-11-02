@@ -209,7 +209,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 5441735}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.03, y: 4.15, z: -1.11}
+  m_LocalPosition: {x: -3.7, y: 4.15, z: 6.4}
   m_LocalScale: {x: 4, y: 3, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
@@ -228,11 +228,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 100
-  spread: 7
-  shift: 0
-  impulseMagnitude: 10
+  prefabNumbers: 100
+  prefabDestroyTime: 3
+  spread: 17
+  shift: 0.23
+  impulseMagnitude: 5
 --- !u!1 &29640363
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,8 +316,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 29640363}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.57, y: -1.4, z: -10.212988}
-  m_LocalScale: {x: 55.67, y: 1, z: 61.3}
+  m_LocalPosition: {x: -1.57, y: -0.6, z: -10.212988}
+  m_LocalScale: {x: 55.67, y: 4.88, z: 61.3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2

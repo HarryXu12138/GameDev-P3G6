@@ -68,17 +68,17 @@ public class Destroy : MonoBehaviour {
             temp.transform.position = transform.position;
             //check the direction
             Vector3 tempF = force;
-            print(Mathf.Abs(tempF.x - 0f) < 0.0001f);
-            if (Mathf.Abs(tempF.x - 0f) < 0.0001f)
+            print(Mathf.Abs(tempF.x - 0f) < 0.01f);
+            if (Mathf.Abs(tempF.x - 0f) < 0.01f)
             {
                 //print("work");
                 tempF.x += Random.Range(-spread + shift, spread + shift);
             }
-            if (Mathf.Abs(tempF.y - 0f) < 0.0001f)
+            if (Mathf.Abs(tempF.y - 0f) < 0.01f)
             {
                 tempF.y += Random.Range(-spread + shift, spread + shift);
             }
-            if (Mathf.Abs(tempF.z - 0f) < 0.0001f)
+            if (Mathf.Abs(tempF.z - 0f) < 0.01f)
             {
                 tempF.z += Random.Range(-spread + shift, spread + shift);
             }
