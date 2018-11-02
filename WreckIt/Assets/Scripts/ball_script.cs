@@ -67,7 +67,8 @@ public class ball_script : MonoBehaviour {
         if (Input.GetKeyUp(KeyCode.E) && !thrown){
             thrown = true;
             transform.SetParent(null);
-            //throw the ball upon clicking the E button
+            //throw the ball upon mouse click
+            //rb.isKinematic = true;
             rb.useGravity = true;
             float tspd = power_bar.value * 1.3f;
             Vector3 velocity = new Vector3(0, 0, tspd);
@@ -94,6 +95,16 @@ public class ball_script : MonoBehaviour {
             }
         }
 
+        if (Input.GetKey(KeyCode.Space) && thrown)
+        {
+            thrown = false;
+            //transform.SetParent(da_cam.transform);
+            //rb.useGravity = false;
+            //rb.isKinematic = true;
+            rb.velocity = Vector3.zero;
+            rb.angularVelocity = Vector3.zero;
+            rb.useGravity = false;
+        }
 
 
     }
