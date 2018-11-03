@@ -14,8 +14,23 @@ public class FlipPageControl : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+        initializeBookPages();
 	}
+
+    private void initializeBookPages()
+    {
+        bookPageNames = new List<string>();
+        bookPageNames.Add("Page1");
+        bookPageNames.Add("Page2");
+
+        bookPages = new List<GameObject>();
+        for (int i = 0; i < bookPageNames.Count; ++i)
+        {
+            GameObject page = GameObject.Find(bookPageNames[i]);
+            page.transform.
+            bookPages.Add(GameObject.Find(bookPageNames[i]));
+        }
+    }
 	
 	// Update is called once per frame
 	void Update () {
