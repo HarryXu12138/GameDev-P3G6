@@ -73,8 +73,7 @@ public class FlipPageControl : MonoBehaviour {
         for (int i = 0; i < bookPageNames.Count; ++i)
         {
             GameObject page = GameObject.Find(bookPageNames[i]);
-            page.SetActive(false);
-            bookPages.Add(page);
+            //page.transform.bookPages.Add(GameObject.Find(bookPageNames[i]));
         }
         bookPages[0].SetActive(true);
     }

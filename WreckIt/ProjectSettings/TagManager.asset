@@ -4,7 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Debris
+  - Destroyable Obj
+  - bench_part
+  - chair_parts
   layers:
   - Default
   - TransparentFX
@@ -17,7 +19,7 @@ TagManager:
   - PostProcessing
   - Debris
   - BounceBall
-  - 
+  - Destroyable
   - 
   - 
   - 
