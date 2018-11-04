@@ -22,12 +22,12 @@ public class LevelSelectorButtons : MonoBehaviour {
 		
 	}
 
-    void ClickGoBackButton()
+    private void ClickGoBackButton()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenuScene");
     }
 
-    void ButtonClicked(int buttonNo)
+    private void ButtonClicked(int buttonNo)
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
         /*if (buttonNo == 1)
