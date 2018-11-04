@@ -27,8 +27,7 @@ public class FlipPageControl : MonoBehaviour {
         for (int i = 0; i < bookPageNames.Count; ++i)
         {
             GameObject page = GameObject.Find(bookPageNames[i]);
-            page.transform.
-            bookPages.Add(GameObject.Find(bookPageNames[i]));
+            //page.transform.bookPages.Add(GameObject.Find(bookPageNames[i]));
         }
     }
 	

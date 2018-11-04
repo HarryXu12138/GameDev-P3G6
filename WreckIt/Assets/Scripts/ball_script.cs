@@ -6,7 +6,8 @@ using UnityEngine.UI;
 
 public class ball_script : MonoBehaviour {
 
-    public float throw_speed = 2.0f;
+    public float power_bar_speed;
+    public float throw_speed_multiplier;
 
     private float speedX = 2.0f;
     private float speedY = 2.0f;
@@ -24,14 +25,14 @@ public class ball_script : MonoBehaviour {
 
     private GameObject da_cam;
     private Rigidbody rb;
-    private GameObject[] in_game_objs;
+    //private GameObject[] in_game_objs;
 
 
     //private static Rigidbody cam_rb;
     private bool thrown;
     // Use this for initialization
     void Start () {
-        in_game_objs = GameObject.FindGameObjectsWithTag("Destroyable Obj");
+        //in_game_objs = GameObject.FindGameObjectsWithTag("destroyable Obj");
         da_pick_text_panel.SetActive(false);
         power_up = true;
         power_bar.value = 0;
@@ -54,25 +55,25 @@ public class ball_script : MonoBehaviour {
             rb.isKinematic = true;
         }
        
-        in_game_objs = GameObject.FindGameObjectsWithTag("Destroyable Obj");
-
+       // in_game_objs = GameObject.FindGameObjectsWithTag("Destroyable Obj");
+       /*
         for (int a = 0; a < in_game_objs.Length; a++){
             in_game_objs[a].SendMessage("changeTrigger", thrown, SendMessageOptions.DontRequireReceiver);
         }
-
+        */
         if(!thrown && Input.GetKey(KeyCode.E))
         {
             //starts charging
             if(power_up){
                 Debug.Log("power up");
-                power_bar.value += Time.deltaTime * throw_speed;
+                power_bar.value += Time.deltaTime * power_bar_speed;
                 if(power_bar.value > 100){
                     power_up = false;
                 }
             }
             else{
                 Debug.Log("power down");
-                power_bar.value -= Time.deltaTime * throw_speed;
+                power_bar.value -= Time.deltaTime * power_bar_speed;
                 if(power_bar.value < 0){
                     power_up = true;
                 }
@@ -87,7 +88,7 @@ public class ball_script : MonoBehaviour {
             //throw the ball upon mouse click
             //rb.isKinematic = true;
             rb.useGravity = true;
-            float tspd = power_bar.value * 1.3f;
+            float tspd = power_bar.value * throw_speed_multiplier;
             Vector3 velocity = new Vector3(0, 0, tspd);
             velocity = Quaternion.Euler(da_cam.transform.eulerAngles.x, da_cam.transform.eulerAngles.y, 0) * velocity;
             //Console.WriteLine()
