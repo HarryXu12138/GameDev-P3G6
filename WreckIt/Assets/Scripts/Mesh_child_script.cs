@@ -8,8 +8,8 @@ public class Mesh_child_script : MonoBehaviour
     private Rigidbody rb;
     private GameObject da_ball;
     public string group;
-    public float collapse_point;
-    //public GameObject parent;
+    private float collapse_point;
+    public GameObject parent;
     // Use this for initialization
     void Start()
     {
@@ -21,7 +21,7 @@ public class Mesh_child_script : MonoBehaviour
 
     public void OnCollisionEnter(Collision collision)
     {
-        if(collision.impulse.magnitude > collapse_point){
+        if(collision.impulse.magnitude > collapse_point && rb.isKinematic == true){
             Debug.Log(collision.impulse.magnitude);
             //transform.SetParent(null);
             for (int a = 0; a < components.Length; a++)
@@ -36,7 +36,7 @@ public class Mesh_child_script : MonoBehaviour
             f.z *= da_ball.GetComponent<Rigidbody>().mass;
 
             rb.AddForce(collision.impulse);
-            //parent.SendMessage("collapse", true, SendMessageOptions.DontRequireReceiver);
+            parent.SendMessage("add_score", SendMessageOptions.DontRequireReceiver);
         }
 
 
@@ -46,5 +46,8 @@ public class Mesh_child_script : MonoBehaviour
     void Update()
     {
 
+    }
+    public void SetCollapsePoint(float f){
+        collapse_point = f;
     }
 }
