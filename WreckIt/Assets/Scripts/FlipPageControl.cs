@@ -8,7 +8,6 @@ public class FlipPageControl : MonoBehaviour {
     public Button prevPage;
     public int flipSpeed = 5;
 
-    private Vector3 rotationAxis;
     private List<string> bookPageNames;
     private List<GameObject> bookPages;
     private int currentPageIndex = 0;
@@ -39,7 +38,7 @@ public class FlipPageControl : MonoBehaviour {
         flipping = true;
         flippingPageDirection = true;
         flippingPageIndex = currentPageIndex;
-        bookPages[flippingPageIndex].transform.position += new Vector3(0.0f, 0.0f, 1.0f);
+        bookPages[flippingPageIndex].transform.rotation = Quaternion.Euler(0, 0, 0);
         currentPageIndex += 1;
         bookPages[currentPageIndex].SetActive(true);
     }
@@ -52,18 +51,17 @@ public class FlipPageControl : MonoBehaviour {
             Debug.Log("First page!");
             return;
         }
-        Debug.Log(currentPageIndex);
         flipping = true;
         flippingPageDirection = false;
         currentPageIndex -= 1;
         flippingPageIndex = currentPageIndex;
         bookPages[flippingPageIndex].transform.eulerAngles = new Vector3(0, 180, 0);
-        bookPages[flippingPageIndex].SetActive(true);
+        bookPages[flippingPageIndex - 1].SetActive(true);
+        bookPages[flippingPageIndex - 1].transform.eulerAngles = new Vector3(0, 180, 0);
     }
 
     private void initializeBookPages()
     {
-        rotationAxis = GameObject.Find("Pages").transform.position;
         bookPageNames = new List<string>();
         bookPageNames.Add("Page1");
         bookPageNames.Add("Page2");
@@ -91,14 +89,13 @@ public class FlipPageControl : MonoBehaviour {
             {
                 bookPages[flippingPageIndex].transform.Rotate(0, -flipSpeed * Time.deltaTime, 0);
             }
-            Debug.Log(bookPages[flippingPageIndex].transform.rotation.y);
             if (bookPages[flippingPageIndex].transform.eulerAngles.y > 180 || bookPages[flippingPageIndex].transform.eulerAngles.y < 0)
             {
                 flipping = false;
                 if (flippingPageDirection)
                 {
-                    bookPages[flippingPageIndex].SetActive(false);
-                    bookPages[flippingPageIndex].transform.rotation = Quaternion.Euler(0, 0, 0);
+                    bookPages[flippingPageIndex - 1].SetActive(false);
+                    bookPages[flippingPageIndex - 1].transform.rotation = Quaternion.Euler(0, 0, 0);
                 }
                 if (!flippingPageDirection)
                 {
