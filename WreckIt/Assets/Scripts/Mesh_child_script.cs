@@ -10,32 +10,28 @@ public class Mesh_child_script : MonoBehaviour
     public string group;
     private float collapse_point;
     public GameObject parent;
+    private bool destroyed;
     // Use this for initialization
     void Start()
     {
+        destroyed = false;
         da_ball = GameObject.Find("da_ball");
         components = GameObject.FindGameObjectsWithTag(group);
         rb = GetComponent<Rigidbody>();
-       // transform.SetParent(parent.transform);
+        //transform.SetParent(parent.transform);
     }
 
     public void OnCollisionEnter(Collision collision)
     {
-        if(collision.impulse.magnitude > collapse_point && rb.isKinematic == true){
+        if(collision.impulse.magnitude > collapse_point && !destroyed){
             Debug.Log(collision.impulse.magnitude);
             //transform.SetParent(null);
             for (int a = 0; a < components.Length; a++)
             {
-                components[a].GetComponent<Rigidbody>().isKinematic = false;
-                components[a].GetComponent<Rigidbody>().useGravity = true;
+                components[a].SendMessage("setDestroyed", true, SendMessageOptions.DontRequireReceiver);
+                Destroy(components[a].GetComponent<FixedJoint>());
             }
-            Vector3 f = collision.impulse;
-            f = f.normalized;
-            f.x *= da_ball.GetComponent<Rigidbody>().mass;
-            f.y *= da_ball.GetComponent<Rigidbody>().mass;
-            f.z *= da_ball.GetComponent<Rigidbody>().mass;
-
-            rb.AddForce(collision.impulse);
+           
             parent.SendMessage("add_score", SendMessageOptions.DontRequireReceiver);
         }
 
@@ -49,5 +45,9 @@ public class Mesh_child_script : MonoBehaviour
     }
     public void SetCollapsePoint(float f){
         collapse_point = f;
+    }
+    public void setDestroyed(bool d)
+    {
+        destroyed = d;
     }
 }

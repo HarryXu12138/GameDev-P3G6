@@ -16,8 +16,8 @@ public class mesh_prefab_test : MonoBehaviour {
         for (int a = 0; a < children.Length; a++)
         {
             children[a].SendMessage("SetCollapsePoint", collapse_point);
-            children[a].GetComponent<Rigidbody>().isKinematic = true;
-            children[a].GetComponent<Rigidbody>().useGravity = false;
+            children[a].GetComponent<Rigidbody>().isKinematic = false;
+            children[a].GetComponent<Rigidbody>().useGravity = true;
         }
     }
     // Update is called once per frame
