@@ -18,12 +18,6 @@ ModelImporter:
     100024: stand_stands_bench
     100026: stands_bench_stand1
     100028: stands_bench_stand2
-    100030: bot_stand_stands_bench
-    100032: stand_stands_bench_top
-    100034: stands_bench_bot_stand1
-    100036: stands_bench_bot_stand2
-    100038: stands_bench_stand1_top
-    100040: stands_bench_stand2_top
     400000: //RootNode
     400002: bench_planks
     400004: stand_bench
@@ -39,12 +33,6 @@ ModelImporter:
     400024: stand_stands_bench
     400026: stands_bench_stand1
     400028: stands_bench_stand2
-    400030: bot_stand_stands_bench
-    400032: stand_stands_bench_top
-    400034: stands_bench_bot_stand1
-    400036: stands_bench_bot_stand2
-    400038: stands_bench_stand1_top
-    400040: stands_bench_stand2_top
     2100000: initialShadingGroup
     2300000: bench_planks
     2300002: stand_bench
@@ -60,12 +48,6 @@ ModelImporter:
     2300022: stand_stands_bench
     2300024: stands_bench_stand1
     2300026: stands_bench_stand2
-    2300028: bot_stand_stands_bench
-    2300030: stand_stands_bench_top
-    2300032: stands_bench_bot_stand1
-    2300034: stands_bench_bot_stand2
-    2300036: stands_bench_stand1_top
-    2300038: stands_bench_stand2_top
     3300000: bench_planks
     3300002: stand_bench
     3300004: bench_plank_planks
@@ -80,12 +62,6 @@ ModelImporter:
     3300022: stand_stands_bench
     3300024: stands_bench_stand1
     3300026: stands_bench_stand2
-    3300028: bot_stand_stands_bench
-    3300030: stand_stands_bench_top
-    3300032: stands_bench_bot_stand1
-    3300034: stands_bench_bot_stand2
-    3300036: stands_bench_stand1_top
-    3300038: stands_bench_stand2_top
     4300000: bench_planks
     4300002: stand_bench
     4300004: bench_plank_planks
@@ -100,12 +76,6 @@ ModelImporter:
     4300022: stand_stands_bench
     4300024: stands_bench_stand1
     4300026: stands_bench_stand2
-    4300028: bot_stand_stands_bench
-    4300030: stand_stands_bench_top
-    4300032: stands_bench_bot_stand1
-    4300034: stands_bench_bot_stand2
-    4300036: stands_bench_stand1_top
-    4300038: stands_bench_stand2_top
   externalObjects: {}
   materials:
     importMaterials: 1
