@@ -5,12 +5,82 @@ ModelImporter:
   fileIDToRecycleName:
     100000: monkeyBars
     100002: //RootNode
+    100004: monkeyBars_bar1
+    100006: monkeyBars_bar10
+    100008: monkeyBars_bar11
+    100010: monkeyBars_bar12
+    100012: monkeyBars_bar13
+    100014: monkeyBars_bar2
+    100016: monkeyBars_bar3
+    100018: monkeyBars_bar4
+    100020: monkeyBars_bar5
+    100022: monkeyBars_bar6
+    100024: monkeyBars_bar7
+    100026: monkeyBars_bar8
+    100028: monkeyBars_bar9
+    100030: stand_monkeyBars
     400000: monkeyBars
     400002: //RootNode
+    400004: monkeyBars_bar1
+    400006: monkeyBars_bar10
+    400008: monkeyBars_bar11
+    400010: monkeyBars_bar12
+    400012: monkeyBars_bar13
+    400014: monkeyBars_bar2
+    400016: monkeyBars_bar3
+    400018: monkeyBars_bar4
+    400020: monkeyBars_bar5
+    400022: monkeyBars_bar6
+    400024: monkeyBars_bar7
+    400026: monkeyBars_bar8
+    400028: monkeyBars_bar9
+    400030: stand_monkeyBars
     2100000: initialShadingGroup
     2300000: monkeyBars
+    2300002: monkeyBars_bar1
+    2300004: monkeyBars_bar10
+    2300006: monkeyBars_bar11
+    2300008: monkeyBars_bar12
+    2300010: monkeyBars_bar13
+    2300012: monkeyBars_bar2
+    2300014: monkeyBars_bar3
+    2300016: monkeyBars_bar4
+    2300018: monkeyBars_bar5
+    2300020: monkeyBars_bar6
+    2300022: monkeyBars_bar7
+    2300024: monkeyBars_bar8
+    2300026: monkeyBars_bar9
+    2300028: stand_monkeyBars
     3300000: monkeyBars
+    3300002: monkeyBars_bar1
+    3300004: monkeyBars_bar10
+    3300006: monkeyBars_bar11
+    3300008: monkeyBars_bar12
+    3300010: monkeyBars_bar13
+    3300012: monkeyBars_bar2
+    3300014: monkeyBars_bar3
+    3300016: monkeyBars_bar4
+    3300018: monkeyBars_bar5
+    3300020: monkeyBars_bar6
+    3300022: monkeyBars_bar7
+    3300024: monkeyBars_bar8
+    3300026: monkeyBars_bar9
+    3300028: stand_monkeyBars
     4300000: monkeyBars
+    4300002: monkeyBars_bar1
+    4300004: monkeyBars_bar10
+    4300006: monkeyBars_bar11
+    4300008: monkeyBars_bar12
+    4300010: monkeyBars_bar13
+    4300012: monkeyBars_bar2
+    4300014: monkeyBars_bar3
+    4300016: monkeyBars_bar4
+    4300018: monkeyBars_bar5
+    4300020: monkeyBars_bar6
+    4300022: monkeyBars_bar7
+    4300024: monkeyBars_bar8
+    4300026: monkeyBars_bar9
+    4300028: stand_monkeyBars
   externalObjects: {}
   materials:
     importMaterials: 1
