@@ -25,14 +25,14 @@ public class ball_script : MonoBehaviour {
 
     private GameObject da_cam;
     private Rigidbody rb;
-    //private GameObject[] in_game_objs;
+    private GameObject[] in_game_objs;
 
 
     //private static Rigidbody cam_rb;
     private bool thrown;
     // Use this for initialization
     void Start () {
-        //in_game_objs = GameObject.FindGameObjectsWithTag("destroyable Obj");
+        in_game_objs = GameObject.FindGameObjectsWithTag("Destroyable Obj");
         da_pick_text_panel.SetActive(false);
         power_up = true;
         power_bar.value = 0;
@@ -56,12 +56,12 @@ public class ball_script : MonoBehaviour {
             rb.isKinematic = true;
         }
        
-       // in_game_objs = GameObject.FindGameObjectsWithTag("Destroyable Obj");
-       /*
+        in_game_objs = GameObject.FindGameObjectsWithTag("Destroyable Obj");
+       
         for (int a = 0; a < in_game_objs.Length; a++){
             in_game_objs[a].SendMessage("changeTrigger", thrown, SendMessageOptions.DontRequireReceiver);
         }
-        */
+
         if(!thrown && Input.GetKey(KeyCode.E))
         {
             //starts charging

@@ -1923,9 +1923,9 @@ MonoBehaviour:
     type: 2}
   prefabNumbers: 30
   prefabDestroyTime: 2
-  spread: 10
+  spread: 50
   shift: 0
-  impulseMagnitude: 3
+  impulseMagnitude: 2
   breakpoint: 1
 --- !u!1 &940217218 stripped
 GameObject:
