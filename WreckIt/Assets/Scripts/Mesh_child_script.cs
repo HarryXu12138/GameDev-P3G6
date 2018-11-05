@@ -11,6 +11,7 @@ public class Mesh_child_script : MonoBehaviour
     private float collapse_point;
     public GameObject parent;
     private bool destroyed;
+    public bool break_self_joint;
     // Use this for initialization
     void Start()
     {
@@ -26,11 +27,27 @@ public class Mesh_child_script : MonoBehaviour
         if(collision.impulse.magnitude > collapse_point && !destroyed){
             Debug.Log(collision.impulse.magnitude);
             //transform.SetParent(null);
-            for (int a = 0; a < components.Length; a++)
+            if (break_self_joint)
             {
-                components[a].SendMessage("setDestroyed", true, SendMessageOptions.DontRequireReceiver);
-                Destroy(components[a].GetComponent<FixedJoint>());
+                FixedJoint[] FJs = (GetComponents<FixedJoint>());
+                for (int b = 0; b < FJs.Length; b++)
+                {
+                    Destroy(FJs[b]);
+                }
             }
+            else {
+                for (int a = 0; a < components.Length; a++)
+                {
+                    components[a].SendMessage("setDestroyed", true, SendMessageOptions.DontRequireReceiver);
+                    FixedJoint[] FJs = (components[a].GetComponents<FixedJoint>());
+                    for (int b = 0; b < FJs.Length; b++)
+                    {
+                        Destroy(FJs[b]);
+                    }
+                    components[a].GetComponent<Rigidbody>().useGravity = true;
+                }
+            }
+            
            
             parent.SendMessage("add_score", SendMessageOptions.DontRequireReceiver);
         }

@@ -7,6 +7,8 @@ TagManager:
   - Destroyable Obj
   - bench_part
   - chair_parts
+  - Debris
+  - monkeybar_parts
   layers:
   - Default
   - TransparentFX
