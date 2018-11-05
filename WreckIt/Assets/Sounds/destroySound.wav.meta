@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 33e7c1cf64c8bbf4cbdad8791ce4185f
+=======
+guid: 614984b68bb35438e8db3ffba4746c41
+>>>>>>> gameplat_ui
 AudioImporter:
   externalObjects: {}
   serializedVersion: 6
