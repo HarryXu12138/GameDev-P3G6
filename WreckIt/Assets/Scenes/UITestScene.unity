@@ -2383,7 +2383,7 @@ Prefab:
     - target: {fileID: 54813003935845554, guid: 3bb887cf2a811b943ba55f31463306c6,
         type: 2}
       propertyPath: m_Drag
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4447669460681076, guid: 3bb887cf2a811b943ba55f31463306c6, type: 2}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2410,7 +2410,7 @@ Prefab:
     - target: {fileID: 54813003935845554, guid: 3bb887cf2a811b943ba55f31463306c6,
         type: 2}
       propertyPath: m_AngularDrag
-      value: 1
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 23931665056954814, guid: 3bb887cf2a811b943ba55f31463306c6,
         type: 2}
@@ -2420,7 +2420,7 @@ Prefab:
     - target: {fileID: 54813003935845554, guid: 3bb887cf2a811b943ba55f31463306c6,
         type: 2}
       propertyPath: m_UseGravity
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114461483210145248, guid: 3bb887cf2a811b943ba55f31463306c6,
         type: 2}
