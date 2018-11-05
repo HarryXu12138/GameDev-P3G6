@@ -54,6 +54,7 @@ public class ball_script : MonoBehaviour {
 
         if(!thrown){
             rb.isKinematic = true;
+            rb.detectCollisions = false;
         }
        
         in_game_objs = GameObject.FindGameObjectsWithTag("Destroyable Obj");
@@ -101,6 +102,7 @@ public class ball_script : MonoBehaviour {
 
         if (thrown)
         {
+            rb.detectCollisions = true;
             power_bar.value = 0;
             if ((Math.Abs(transform.position.x - da_cam.transform.position.x) < 1) &&
                 (Math.Abs(transform.position.z - da_cam.transform.position.z) < 1) && pickable)
