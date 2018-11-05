@@ -20,6 +20,7 @@ public class mesh_prefab_test : MonoBehaviour {
     void Update () {
 		
 	}
+    /*
     public void collapse()
     {
         for(int a = 0; a < children.Length; a++)
@@ -28,4 +29,5 @@ public class mesh_prefab_test : MonoBehaviour {
             children[a].GetComponent<Rigidbody>().useGravity = true;
         }
     }
+    */
 }

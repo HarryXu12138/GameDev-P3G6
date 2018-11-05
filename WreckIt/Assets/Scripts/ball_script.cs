@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class ball_script : MonoBehaviour {
 
     public float power_bar_speed;
-    public float throw_speed_multiplier;
+    private float throw_speed_multiplier;
 
     private float speedX = 2.0f;
     private float speedY = 2.0f;
@@ -45,6 +45,7 @@ public class ball_script : MonoBehaviour {
         rb = GetComponent<Rigidbody>();
         //rb.detectCollisions = false;
         rb.useGravity = false;
+        throw_speed_multiplier = rb.mass * 10;
     }
 	
 	// Update is called once per frame
