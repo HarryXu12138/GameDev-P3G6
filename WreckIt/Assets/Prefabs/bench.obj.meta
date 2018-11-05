@@ -6,16 +6,106 @@ ModelImporter:
     100000: //RootNode
     100002: bench_planks
     100004: stand_bench
+    100006: bench_plank_planks
+    100008: bench_planks_plank1
+    100010: bench_planks_plank2
+    100012: bench_planks_plank3
+    100014: bench_planks_plank4
+    100016: bench_planks_plank5
+    100018: bench_planks_plank6
+    100020: bench_planks_plank7
+    100022: bench_planks_plank8
+    100024: stand_stands_bench
+    100026: stands_bench_stand1
+    100028: stands_bench_stand2
+    100030: bot_stand_stands_bench
+    100032: stand_stands_bench_top
+    100034: stands_bench_bot_stand1
+    100036: stands_bench_bot_stand2
+    100038: stands_bench_stand1_top
+    100040: stands_bench_stand2_top
     400000: //RootNode
     400002: bench_planks
     400004: stand_bench
+    400006: bench_plank_planks
+    400008: bench_planks_plank1
+    400010: bench_planks_plank2
+    400012: bench_planks_plank3
+    400014: bench_planks_plank4
+    400016: bench_planks_plank5
+    400018: bench_planks_plank6
+    400020: bench_planks_plank7
+    400022: bench_planks_plank8
+    400024: stand_stands_bench
+    400026: stands_bench_stand1
+    400028: stands_bench_stand2
+    400030: bot_stand_stands_bench
+    400032: stand_stands_bench_top
+    400034: stands_bench_bot_stand1
+    400036: stands_bench_bot_stand2
+    400038: stands_bench_stand1_top
+    400040: stands_bench_stand2_top
     2100000: initialShadingGroup
     2300000: bench_planks
     2300002: stand_bench
+    2300004: bench_plank_planks
+    2300006: bench_planks_plank1
+    2300008: bench_planks_plank2
+    2300010: bench_planks_plank3
+    2300012: bench_planks_plank4
+    2300014: bench_planks_plank5
+    2300016: bench_planks_plank6
+    2300018: bench_planks_plank7
+    2300020: bench_planks_plank8
+    2300022: stand_stands_bench
+    2300024: stands_bench_stand1
+    2300026: stands_bench_stand2
+    2300028: bot_stand_stands_bench
+    2300030: stand_stands_bench_top
+    2300032: stands_bench_bot_stand1
+    2300034: stands_bench_bot_stand2
+    2300036: stands_bench_stand1_top
+    2300038: stands_bench_stand2_top
     3300000: bench_planks
     3300002: stand_bench
+    3300004: bench_plank_planks
+    3300006: bench_planks_plank1
+    3300008: bench_planks_plank2
+    3300010: bench_planks_plank3
+    3300012: bench_planks_plank4
+    3300014: bench_planks_plank5
+    3300016: bench_planks_plank6
+    3300018: bench_planks_plank7
+    3300020: bench_planks_plank8
+    3300022: stand_stands_bench
+    3300024: stands_bench_stand1
+    3300026: stands_bench_stand2
+    3300028: bot_stand_stands_bench
+    3300030: stand_stands_bench_top
+    3300032: stands_bench_bot_stand1
+    3300034: stands_bench_bot_stand2
+    3300036: stands_bench_stand1_top
+    3300038: stands_bench_stand2_top
     4300000: bench_planks
     4300002: stand_bench
+    4300004: bench_plank_planks
+    4300006: bench_planks_plank1
+    4300008: bench_planks_plank2
+    4300010: bench_planks_plank3
+    4300012: bench_planks_plank4
+    4300014: bench_planks_plank5
+    4300016: bench_planks_plank6
+    4300018: bench_planks_plank7
+    4300020: bench_planks_plank8
+    4300022: stand_stands_bench
+    4300024: stands_bench_stand1
+    4300026: stands_bench_stand2
+    4300028: bot_stand_stands_bench
+    4300030: stand_stands_bench_top
+    4300032: stands_bench_bot_stand1
+    4300034: stands_bench_bot_stand2
+    4300036: stands_bench_stand1_top
+    4300038: stands_bench_stand2_top
   externalObjects: {}
   materials:
     importMaterials: 1
