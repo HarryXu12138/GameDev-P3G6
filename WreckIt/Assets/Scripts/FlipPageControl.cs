@@ -38,6 +38,7 @@ public class FlipPageControl : MonoBehaviour {
         flipping = true;
         flippingPageDirection = true;
         flippingPageIndex = currentPageIndex;
+        bookPages[flippingPageIndex].transform.SetSiblingIndex(bookPages.Count - 1);
         bookPages[flippingPageIndex].transform.rotation = Quaternion.Euler(0, 0, 0);
         currentPageIndex += 1;
         bookPages[currentPageIndex].SetActive(true);
@@ -55,9 +56,13 @@ public class FlipPageControl : MonoBehaviour {
         flippingPageDirection = false;
         currentPageIndex -= 1;
         flippingPageIndex = currentPageIndex;
+        bookPages[flippingPageIndex].transform.SetSiblingIndex(bookPages.Count - 1);
         bookPages[flippingPageIndex].transform.eulerAngles = new Vector3(0, 180, 0);
-        bookPages[flippingPageIndex - 1].SetActive(true);
-        bookPages[flippingPageIndex - 1].transform.eulerAngles = new Vector3(0, 180, 0);
+        if (flippingPageIndex - 1 >= 0)
+        {
+            bookPages[flippingPageIndex - 1].SetActive(true);
+            bookPages[flippingPageIndex - 1].transform.eulerAngles = new Vector3(0, 180, 0);
+        }
     }
 
     private void initializeBookPages()
@@ -79,7 +84,6 @@ public class FlipPageControl : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        // bookPages[0].transform.Rotate(0, 5, 0);
         if (flipping)
         {
             if (flippingPageDirection)
@@ -94,13 +98,26 @@ public class FlipPageControl : MonoBehaviour {
                 flipping = false;
                 if (flippingPageDirection)
                 {
-                    bookPages[flippingPageIndex - 1].SetActive(false);
-                    bookPages[flippingPageIndex - 1].transform.rotation = Quaternion.Euler(0, 0, 0);
+                    if (flippingPageIndex - 1 >= 0)
+                    {
+                        bookPages[flippingPageIndex - 1].SetActive(false);
+                        bookPages[flippingPageIndex - 1].transform.rotation = Quaternion.Euler(0, 0, 0);
+                    }
                 }
                 if (!flippingPageDirection)
                 {
                     bookPages[flippingPageIndex + 1].SetActive(false);
                 }
+            }
+            Debug.Log(bookPages[flippingPageIndex].transform.eulerAngles.y);
+            if (flippingPageDirection && bookPages[flippingPageIndex].transform.eulerAngles.y > 90)
+            {
+                bookPages[flippingPageIndex].transform.Find("FrontPage").gameObject.SetActive(false);
+                bookPages[flippingPageIndex].transform.Find("BehindPage").gameObject.SetActive(true);
+            } else if (!flippingPageDirection && bookPages[flippingPageIndex].transform.eulerAngles.y < 90)
+            {
+                bookPages[flippingPageIndex].transform.Find("FrontPage").gameObject.SetActive(true);
+                bookPages[flippingPageIndex].transform.Find("BehindPage").gameObject.SetActive(false);
             }
         }
     }
