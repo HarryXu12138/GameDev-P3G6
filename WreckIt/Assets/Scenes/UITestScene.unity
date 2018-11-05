@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -146,7 +146,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.41875002, y: 0.29819757}
-  m_AnchoredPosition: {x: 232.5, y: -10.799988}
+  m_AnchoredPosition: {x: 232.5, y: -10.799927}
   m_SizeDelta: {x: 465, y: 264}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &53601963
@@ -2373,7 +2373,7 @@ Prefab:
     - target: {fileID: 54813003935845554, guid: 3bb887cf2a811b943ba55f31463306c6,
         type: 2}
       propertyPath: m_Mass
-      value: 2
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 135551535371577914, guid: 3bb887cf2a811b943ba55f31463306c6,
         type: 2}
@@ -3318,10 +3318,10 @@ MonoBehaviour:
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
   prefabNumbers: 30
-  prefabDestroyTime: 2
-  spread: 50
-  shift: 0
-  impulseMagnitude: 2
+  prefabDestroyTime: 10
+  spread: 15
+  shift: 10
+  impulseMagnitude: 3
   breakpoint: 1
 --- !u!1 &932389195 stripped
 GameObject:
