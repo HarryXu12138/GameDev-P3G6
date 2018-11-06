@@ -14,6 +14,7 @@ public class Destroy : MonoBehaviour {
     public float impulseMagnitude = 1.0f;
     public float breakpoint;
     private bool trigger = false;
+    public SlowMotion timeController;
     // Use this for initialization
     void Start(){
         bb = GameObject.Find("da_ball");
@@ -49,7 +50,7 @@ public class Destroy : MonoBehaviour {
                 createDebris(force);
                 GameObject.Destroy(gameObject);      
                 print("Bulls Eyes");
-
+                
             }
             
         }
@@ -63,6 +64,7 @@ public class Destroy : MonoBehaviour {
 
     private void createDebris(Vector3 force)
     {
+        timeController.slowDown();
         int counter = prefabNumbers;
         /*
         int offset = 0;
@@ -79,6 +81,11 @@ public class Destroy : MonoBehaviour {
         {
             GameObject temp = GameObject.Instantiate<GameObject>(debriPrefab);
             temp.transform.position = transform.position;
+            if (temp.transform.position.y < 0.1f)
+            {
+                temp.transform.position = new Vector3(temp.transform.position.x, 0.1f,
+                                                        temp.transform.position.z);
+            }
             //check the direction
             Vector3 tempF = force;
             //print(Mathf.Abs(tempF.x - 0f) < 0.01f);
@@ -90,7 +97,7 @@ public class Destroy : MonoBehaviour {
                 {
                     tempF.z += Random.Range(-spread + tempF.z*10f, spread + tempF.z*10f);
                     tempF.y += Random.Range(-spread, spread);
-                    if (tempF.y < -10.0f)
+                    if (tempF.y < -2f)
                     {
                         tempF.y = -tempF.y;
                         if (tempF.y < 2.0f)
@@ -107,7 +114,7 @@ public class Destroy : MonoBehaviour {
                 {
                     tempF.z += Random.Range(-spread , spread);
                     tempF.y += Random.Range(-spread + tempF.y*10f, spread + tempF.y*10f);
-                    if (tempF.y<-10.0f){
+                    if (tempF.y<-2f){
                         tempF.y = -tempF.y;
                         if (tempF.y < 2.0f){
                             tempF.y = 2.0f;
@@ -128,7 +135,7 @@ public class Destroy : MonoBehaviour {
                 {
                     tempF.x += Random.Range(-spread + tempF.x*shift, spread + tempF.x*shift);
                     tempF.y += Random.Range(-spread , spread);
-                    if (tempF.y < -10.0f)
+                    if (tempF.y < -2f)
                     {
                         tempF.y = -tempF.y;
                         if (tempF.y < 2.0f)
@@ -145,7 +152,7 @@ public class Destroy : MonoBehaviour {
                 {
                     tempF.x += Random.Range(-spread , spread );
                     tempF.y += Random.Range(-spread + tempF.y*shift, spread + tempF.y*shift);
-                    if (tempF.y < -10.0f)
+                    if (tempF.y < -2f)
                     {
                         tempF.y = -tempF.y;
                         if (tempF.y < 2.0f)
@@ -173,12 +180,12 @@ public class Destroy : MonoBehaviour {
                 
             }
             
-            if (tempF.y < -10.0f)
+            if (tempF.y < -2f)
             {
                 tempF.y = -tempF.y;
-                if (tempF.y < 2.0f)
+                if (tempF.y < 3.0f)
                 {
-                    tempF.y = 2.0f;
+                    tempF.y = 3.0f;
                 }
                 if (tempF.y > maxPower)
                 {
@@ -186,6 +193,7 @@ public class Destroy : MonoBehaviour {
                 }
             }
             tempF.Scale(new Vector3(1f * impulseMagnitude, 1f * impulseMagnitude, 1f * impulseMagnitude));
+            
             print(tempF);
             addForceToPrefab(temp, tempF);
             Destroy(temp, prefabDestroyTime);
