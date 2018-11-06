@@ -136,8 +136,7 @@ public class ball_script : MonoBehaviour {
 
     private void OnCollisionStay(Collision c)
     {
-        if(rb.velocity.magnitude < 1 &&
-           rb.angularVelocity.magnitude < 1){
+        if(rb.velocity.magnitude < 2){
             pickable = true;
         }
     }

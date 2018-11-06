@@ -14,6 +14,7 @@ public class Destroy : MonoBehaviour {
     public float impulseMagnitude = 1.0f;
     public float breakpoint;
     private bool trigger = false;
+    public SlowMotion timeController;
     // Use this for initialization
     void Start(){
         bb = GameObject.Find("da_ball");
@@ -49,7 +50,7 @@ public class Destroy : MonoBehaviour {
                 createDebris(force);
                 GameObject.Destroy(gameObject);      
                 print("Bulls Eyes");
-
+                
             }
             
         }
@@ -63,6 +64,7 @@ public class Destroy : MonoBehaviour {
 
     private void createDebris(Vector3 force)
     {
+        timeController.slowDown();
         int counter = prefabNumbers;
         /*
         int offset = 0;
@@ -75,6 +77,8 @@ public class Destroy : MonoBehaviour {
         startPoint.y += offset;
         startPoint.z += offset;
         */
+
+        
         while (counter > 0)
         {
             GameObject temp = GameObject.Instantiate<GameObject>(debriPrefab);
@@ -107,7 +111,7 @@ public class Destroy : MonoBehaviour {
                 {
                     tempF.z += Random.Range(-spread , spread);
                     tempF.y += Random.Range(-spread + tempF.y*10f, spread + tempF.y*10f);
-                    if (tempF.y<-10.0f){
+                    if (tempF.y<-2f){
                         tempF.y = -tempF.y;
                         if (tempF.y < 2.0f){
                             tempF.y = 2.0f;
@@ -185,7 +189,14 @@ public class Destroy : MonoBehaviour {
                     tempF.y = maxPower;
                 }
             }
+            /*
+            if(tempF.y < 0)
+            {
+                tempF.y = -tempF.y;
+            }
+            */
             tempF.Scale(new Vector3(1f * impulseMagnitude, 1f * impulseMagnitude, 1f * impulseMagnitude));
+            
             print(tempF);
             addForceToPrefab(temp, tempF);
             Destroy(temp, prefabDestroyTime);
@@ -198,3 +209,57 @@ public class Destroy : MonoBehaviour {
 
 
 }
+/*
+            temp.transform.position = transform.position + new Vector3(0, 0.5f, 0);
+            
+            if (maxPower == tempF.x)
+            {
+                //print("work");
+                if (Mathf.Max(tempF.z, tempF.y) == tempF.z)
+                {
+                    tempF.z += Random.Range(-spread + tempF.z*10f, spread + tempF.z*10f);
+                    tempF.y += Random.Range(-spread, spread);
+                    if (tempF.y < -10.0f)
+                    {
+                        tempF.y = -tempF.y;
+                        if (tempF.y < 2.0f)
+                        {
+                            tempF.y = 2.0f;
+                        }
+                        if (tempF.y > tempF.z)
+                        {
+                            tempF.y = tempF.z;
+                        }
+                    }
+                }
+                else
+                {
+                if (Mathf.Max(tempF.x,tempF.y) == tempF.x)
+                {
+                    tempF.x += Random.Range(-spread + tempF.x*shift, spread + tempF.x*shift);
+                    tempF.y += Random.Range(-spread , spread);
+                    if (tempF.y < -10.0f)
+                    {
+                        tempF.y = -tempF.y;
+                        if (tempF.y < 2.0f)
+                        {
+                            tempF.y = 2.0f;
+                        }
+                        if (tempF.y > tempF.z)
+                        {
+                            tempF.y = tempF.z;
+                        }
+                    }
+                    if (tempF.y < -10.0f)
+            if (tempF.y < -10.0f)
+            {
+                tempF.y = -tempF.y;
+                if (tempF.y < 2.0f)
+                {
+                    tempF.y = 2.0f;
+                }
+                if (tempF.y > maxPower)
+                {
+                    tempF.y = maxPower;
+                }
+                */
