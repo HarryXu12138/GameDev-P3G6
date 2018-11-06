@@ -78,8 +78,9 @@ public class FlipPageControl : MonoBehaviour {
         for (int i = 0; i < bookPageNames.Count; ++i)
         {
             GameObject page = GameObject.Find(bookPageNames[i]);
-            bookPages.Add(page);
             page.SetActive(false);
+            page.transform.localPosition = new Vector3(0, 0, 0);
+            bookPages.Add(page);
         }
         bookPages[0].SetActive(true);
         bookPages[0].transform.Find("BehindPage").gameObject.SetActive(false);
@@ -88,6 +89,13 @@ public class FlipPageControl : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         flippingUpdate();
+        if (currentPageIndex == bookPages.Count - 1) nextPage.gameObject.SetActive(false);
+        else if (currentPageIndex == 0) prevPage.gameObject.SetActive(false);
+        else
+        {
+            nextPage.gameObject.SetActive(true);
+            prevPage.gameObject.SetActive(true);
+        }
     }
 
     private void flippingUpdate()
@@ -118,6 +126,7 @@ public class FlipPageControl : MonoBehaviour {
             {
                 bookPages[flippingPageIndex].transform.Rotate(0, -flipSpeed * Time.deltaTime, 0);
             }
+            //Debug.Log(bookPages[flippingPageIndex].transform.eulerAngles.y);
             if (flippingPageDirection && bookPages[flippingPageIndex].transform.eulerAngles.y > 90)
             {
                 bookPages[flippingPageIndex].transform.Find("FrontPage").gameObject.SetActive(false);
@@ -129,11 +138,9 @@ public class FlipPageControl : MonoBehaviour {
             {
                 bookPages[flippingPageIndex].transform.Find("FrontPage").gameObject.SetActive(true);
                 bookPages[flippingPageIndex].transform.Find("BehindPage").gameObject.SetActive(false);
-                bookPages[flippingPageIndex - 1].transform.Find("BehindPage").gameObject.SetActive(true);
+                if (flippingPageIndex - 1 > 0) bookPages[flippingPageIndex - 1].transform.Find("BehindPage").gameObject.SetActive(true);
                 if (flippingPageIndex + 1 < bookPages.Count) bookPages[flippingPageIndex + 1].transform.Find("FrontPage").gameObject.SetActive(false);
             }
-            //bookPages[flippingPageIndex].transform.SetAsLastSibling();
-            //GameObject.Find("Buttons").transform.SetAsFirstSibling();
         }
     }
 }
