@@ -209,7 +209,7 @@ public class Destroy : MonoBehaviour {
 
 
 }
-
+/*
             temp.transform.position = transform.position + new Vector3(0, 0.5f, 0);
             
             if (maxPower == tempF.x)
@@ -262,3 +262,4 @@ public class Destroy : MonoBehaviour {
                 {
                     tempF.y = maxPower;
                 }
+                */

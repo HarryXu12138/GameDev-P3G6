@@ -216,9 +216,7 @@ MonoBehaviour:
   group: chair_parts
   parent: {fileID: 948487039}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!54 &91449609
 Rigidbody:
@@ -529,9 +527,7 @@ MonoBehaviour:
   group: bench_part
   parent: {fileID: 2051248136}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!138 &156717216
 FixedJoint:
@@ -672,9 +668,7 @@ MonoBehaviour:
   group: bench_part
   parent: {fileID: 2051248136}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!138 &201109807
 FixedJoint:
@@ -736,9 +730,7 @@ MonoBehaviour:
   group: monkeybar_parts
   parent: {fileID: 1397758002}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!64 &210840311
 MeshCollider:
@@ -848,9 +840,7 @@ MonoBehaviour:
   group: monkeybar_parts
   parent: {fileID: 1397758002}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!64 &293948512
 MeshCollider:
@@ -907,6 +897,48 @@ FixedJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!1001 &310426379
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4050968244098674, guid: 555690ebade2d474ea21d88f5e63e01e, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -6.0720334
+      objectReference: {fileID: 0}
+    - target: {fileID: 4050968244098674, guid: 555690ebade2d474ea21d88f5e63e01e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.46725142
+      objectReference: {fileID: 0}
+    - target: {fileID: 4050968244098674, guid: 555690ebade2d474ea21d88f5e63e01e, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -4.7847047
+      objectReference: {fileID: 0}
+    - target: {fileID: 4050968244098674, guid: 555690ebade2d474ea21d88f5e63e01e, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4050968244098674, guid: 555690ebade2d474ea21d88f5e63e01e, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4050968244098674, guid: 555690ebade2d474ea21d88f5e63e01e, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4050968244098674, guid: 555690ebade2d474ea21d88f5e63e01e, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4050968244098674, guid: 555690ebade2d474ea21d88f5e63e01e, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555690ebade2d474ea21d88f5e63e01e, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &317088622
 GameObject:
   m_ObjectHideFlags: 0
@@ -1056,9 +1088,7 @@ MonoBehaviour:
   group: monkeybar_parts
   parent: {fileID: 1397758002}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!1 &326449232
 GameObject:
@@ -1209,9 +1239,7 @@ MonoBehaviour:
   group: monkeybar_parts
   parent: {fileID: 1397758002}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!1 &373672030 stripped
 GameObject:
@@ -1246,9 +1274,7 @@ MonoBehaviour:
   group: chair_parts
   parent: {fileID: 948487039}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!54 &373672034
 Rigidbody:
@@ -1352,9 +1378,7 @@ MonoBehaviour:
   group: monkeybar_parts
   parent: {fileID: 1397758002}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!1 &384075597 stripped
 GameObject:
@@ -1430,9 +1454,7 @@ MonoBehaviour:
   group: monkeybar_parts
   parent: {fileID: 1397758002}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!1 &396187940 stripped
 GameObject:
@@ -1495,9 +1517,7 @@ MonoBehaviour:
   group: monkeybar_parts
   parent: {fileID: 1397758002}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!138 &396187947
 FixedJoint:
@@ -1796,9 +1816,7 @@ MonoBehaviour:
   group: monkeybar_parts
   parent: {fileID: 1397758002}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!1 &429543072 stripped
 GameObject:
@@ -1848,9 +1866,7 @@ MonoBehaviour:
   group: bench_part
   parent: {fileID: 2051248136}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!138 &429543079
 FixedJoint:
@@ -2235,9 +2251,7 @@ MonoBehaviour:
   group: monkeybar_parts
   parent: {fileID: 1397758002}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!1 &523524181 stripped
 GameObject:
@@ -2287,9 +2301,7 @@ MonoBehaviour:
   group: bench_part
   parent: {fileID: 2051248136}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!138 &523524188
 FixedJoint:
@@ -2365,9 +2377,7 @@ MonoBehaviour:
   group: monkeybar_parts
   parent: {fileID: 1397758002}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!138 &548502566
 FixedJoint:
@@ -2679,9 +2689,7 @@ MonoBehaviour:
   group: monkeybar_parts
   parent: {fileID: 1397758002}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!1 &595115397 stripped
 GameObject:
@@ -2716,9 +2724,7 @@ MonoBehaviour:
   group: chair_parts
   parent: {fileID: 948487039}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!54 &595115401
 Rigidbody:
@@ -2767,9 +2773,7 @@ MonoBehaviour:
   group: monkeybar_parts
   parent: {fileID: 1397758002}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!138 &599063306
 FixedJoint:
@@ -3285,9 +3289,7 @@ MonoBehaviour:
   group: monkeybar_parts
   parent: {fileID: 1397758002}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!1 &874129960 stripped
 GameObject:
@@ -3337,9 +3339,7 @@ MonoBehaviour:
   group: bench_part
   parent: {fileID: 2051248136}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!138 &874129967
 FixedJoint:
@@ -3402,8 +3402,6 @@ MonoBehaviour:
   group: office_desk
   parent: {fileID: 955954324}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
   spread: 0
   shift: 0
 --- !u!1 &932389195 stripped
@@ -3480,9 +3478,7 @@ MonoBehaviour:
   group: monkeybar_parts
   parent: {fileID: 1397758002}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!1 &940217218 stripped
 GameObject:
@@ -3532,9 +3528,7 @@ MonoBehaviour:
   group: bench_part
   parent: {fileID: 2051248136}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!138 &940217225
 FixedJoint:
@@ -3568,10 +3562,12 @@ MonoBehaviour:
   collapse_point: 5
   child_tag: chair_parts
   score: 5
-  blowout_multiplier: 2.75
-  blowout_radius: 1
+  blowout_multiplier: 3
+  blowout_radius: 2
   prefabNumbers: 10
   prefabDestroyTime: 10
+  debrisPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
+    type: 2}
 --- !u!1 &955954324 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: 7d108706ee0baa740a23c8fb95a2d83f,
@@ -3591,10 +3587,12 @@ MonoBehaviour:
   collapse_point: 15
   child_tag: office_desk
   score: 20
-  blowout_multiplier: 2.75
+  blowout_multiplier: 3
   blowout_radius: 2
   prefabNumbers: 35
   prefabDestroyTime: 10
+  debrisPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
+    type: 2}
 --- !u!1 &1007866960
 GameObject:
   m_ObjectHideFlags: 0
@@ -3712,9 +3710,7 @@ MonoBehaviour:
   group: bench_part
   parent: {fileID: 2051248136}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!138 &1023137074
 FixedJoint:
@@ -3963,9 +3959,7 @@ MonoBehaviour:
   group: monkeybar_parts
   parent: {fileID: 1397758002}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!64 &1147095065
 MeshCollider:
@@ -4218,9 +4212,7 @@ MonoBehaviour:
   group: monkeybar_parts
   parent: {fileID: 1397758002}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!1 &1364388213
 GameObject:
@@ -4312,10 +4304,12 @@ MonoBehaviour:
   collapse_point: 7.5
   child_tag: monkeybar_parts
   score: 15
-  blowout_multiplier: 2.75
-  blowout_radius: 1
+  blowout_multiplier: 3
+  blowout_radius: 2
   prefabNumbers: 10
   prefabDestroyTime: 10
+  debrisPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
+    type: 2}
 --- !u!1 &1442637185 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100012, guid: 06c2e063594ca3e40a08ba4552f95394,
@@ -4390,9 +4384,7 @@ MonoBehaviour:
   group: monkeybar_parts
   parent: {fileID: 1397758002}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!1 &1469924778
 GameObject:
@@ -4515,6 +4507,7 @@ MonoBehaviour:
   shift: 0
   impulseMagnitude: 2
   breakpoint: 1.5
+  timeController: {fileID: 0}
 --- !u!1 &1513259929 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100040, guid: 06c2e063594ca3e40a08ba4552f95394,
@@ -4534,9 +4527,7 @@ MonoBehaviour:
   group: monkeybar_parts
   parent: {fileID: 1397758002}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!54 &1513259931
 Rigidbody:
@@ -4691,9 +4682,7 @@ MonoBehaviour:
   group: bench_part
   parent: {fileID: 2051248136}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!138 &1535389936
 FixedJoint:
@@ -4808,9 +4797,7 @@ MonoBehaviour:
   group: monkeybar_parts
   parent: {fileID: 1397758002}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!1 &1542586822 stripped
 GameObject:
@@ -4873,9 +4860,7 @@ MonoBehaviour:
   group: monkeybar_parts
   parent: {fileID: 1397758002}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!138 &1542586829
 FixedJoint:
@@ -4938,9 +4923,7 @@ MonoBehaviour:
   group: bench_part
   parent: {fileID: 2051248136}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!138 &1590046875
 FixedJoint:
@@ -4974,9 +4957,7 @@ MonoBehaviour:
   group: monkeybar_parts
   parent: {fileID: 1397758002}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!138 &1595596184
 FixedJoint:
@@ -5114,9 +5095,7 @@ MonoBehaviour:
   group: monkeybar_parts
   parent: {fileID: 1397758002}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!138 &1699997007
 FixedJoint:
@@ -5260,9 +5239,7 @@ MonoBehaviour:
   group: monkeybar_parts
   parent: {fileID: 1397758002}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!1 &1847632807 stripped
 GameObject:
@@ -5283,9 +5260,7 @@ MonoBehaviour:
   group: monkeybar_parts
   parent: {fileID: 1397758002}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!54 &1847632809
 Rigidbody:
@@ -5377,9 +5352,7 @@ MonoBehaviour:
   group: bench_part
   parent: {fileID: 2051248136}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!138 &1864718414
 FixedJoint:
@@ -5507,9 +5480,7 @@ MonoBehaviour:
   group: monkeybar_parts
   parent: {fileID: 1397758002}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!1 &1907351402 stripped
 GameObject:
@@ -5559,9 +5530,7 @@ MonoBehaviour:
   group: bench_part
   parent: {fileID: 2051248136}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!138 &1907351409
 FixedJoint:
@@ -5624,9 +5593,7 @@ MonoBehaviour:
   group: bench_part
   parent: {fileID: 2051248136}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!138 &1932404084
 FixedJoint:
@@ -5660,10 +5627,12 @@ MonoBehaviour:
   collapse_point: 7.5
   child_tag: bench_part
   score: 10
-  blowout_multiplier: 2.75
-  blowout_radius: 1
+  blowout_multiplier: 3
+  blowout_radius: 2
   prefabNumbers: 10
   prefabDestroyTime: 10
+  debrisPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
+    type: 2}
 --- !u!1 &2074005999 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -5697,9 +5666,7 @@ MonoBehaviour:
   group: chair_parts
   parent: {fileID: 948487039}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!54 &2074006003
 Rigidbody:
@@ -5777,9 +5744,7 @@ MonoBehaviour:
   group: bench_part
   parent: {fileID: 2051248136}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!138 &2105841738
 FixedJoint:
@@ -5842,9 +5807,7 @@ MonoBehaviour:
   group: bench_part
   parent: {fileID: 2051248136}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!138 &2108164887
 FixedJoint:
@@ -5907,9 +5870,7 @@ MonoBehaviour:
   group: bench_part
   parent: {fileID: 2051248136}
   break_self_joint: 0
-  debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
-    type: 2}
-  spread: 10
+  spread: 0
   shift: 0
 --- !u!138 &2140873274
 FixedJoint:

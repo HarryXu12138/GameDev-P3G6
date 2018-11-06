@@ -15,7 +15,7 @@ public class Mesh_child_script : MonoBehaviour
     public bool break_self_joint;
 
     //debris generation
-    public GameObject debriPrefab;
+    private GameObject debriPrefab;
     private GameObject bb;
     private int prefabNumbers;
     private float prefabDestroyTime;
@@ -253,7 +253,10 @@ public class Mesh_child_script : MonoBehaviour
     {
         prefabDestroyTime = f;
     }
-
+    public void set_debris_prefab(GameObject go)
+    {
+        debriPrefab = go;
+    }
 
 
 }
