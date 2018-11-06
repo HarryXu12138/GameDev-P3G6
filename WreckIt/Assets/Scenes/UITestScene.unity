@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -218,12 +218,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 2
-  breakpoint: 0
 --- !u!54 &91449609
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -535,12 +531,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 3
-  breakpoint: 0
 --- !u!138 &156717216
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -682,12 +674,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 3
-  breakpoint: 0
 --- !u!138 &201109807
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -750,12 +738,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 5
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 1
-  breakpoint: 0
 --- !u!64 &210840311
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -866,12 +850,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 1
-  breakpoint: 0
 --- !u!64 &293948512
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1078,12 +1058,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 5
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 1
-  breakpoint: 0
 --- !u!1 &326449232
 GameObject:
   m_ObjectHideFlags: 0
@@ -1235,12 +1211,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 5
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 1
-  breakpoint: 0
 --- !u!1 &373672030 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100008, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -1276,12 +1248,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 2
-  breakpoint: 0
 --- !u!54 &373672034
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1386,12 +1354,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 5
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 1
-  breakpoint: 0
 --- !u!1 &384075597 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100018, guid: 06c2e063594ca3e40a08ba4552f95394,
@@ -1468,12 +1432,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 5
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 1
-  breakpoint: 0
 --- !u!1 &396187940 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100052, guid: 06c2e063594ca3e40a08ba4552f95394,
@@ -1537,12 +1497,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 1
-  breakpoint: 0
 --- !u!138 &396187947
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -1842,12 +1798,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 1
-  breakpoint: 0
 --- !u!1 &429543072 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100018, guid: 71bd0e524fc3dbe458f3b1ec5849c708,
@@ -1898,12 +1850,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 3
-  breakpoint: 0
 --- !u!138 &429543079
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -2289,12 +2237,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 5
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 1
-  breakpoint: 0
 --- !u!1 &523524181 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100032, guid: 71bd0e524fc3dbe458f3b1ec5849c708,
@@ -2345,12 +2289,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 3
-  breakpoint: 0
 --- !u!138 &523524188
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -2427,12 +2367,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 1
-  breakpoint: 0
 --- !u!138 &548502566
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -2511,7 +2447,7 @@ Prefab:
     - target: {fileID: 54813003935845554, guid: 3bb887cf2a811b943ba55f31463306c6,
         type: 2}
       propertyPath: m_Drag
-      value: 0
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4447669460681076, guid: 3bb887cf2a811b943ba55f31463306c6, type: 2}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2745,12 +2681,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 5
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 1
-  breakpoint: 0
 --- !u!1 &595115397 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100006, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -2786,12 +2718,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 2
-  breakpoint: 0
 --- !u!54 &595115401
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2841,12 +2769,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 1
-  breakpoint: 0
 --- !u!138 &599063306
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -3363,12 +3287,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 5
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 1
-  breakpoint: 0
 --- !u!1 &874129960 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100006, guid: 71bd0e524fc3dbe458f3b1ec5849c708,
@@ -3419,12 +3339,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 3
-  breakpoint: 0
 --- !u!138 &874129967
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -3450,7 +3366,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 894797500}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 5
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -3480,17 +3396,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 894797500}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0dda9b8f2d5b1448890e2c958b61877, type: 3}
+  m_Script: {fileID: 11500000, guid: 4b51e59a9de76554a95ce6f91b44d537, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  group: office_desk
+  parent: {fileID: 955954324}
+  break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 30
-  prefabDestroyTime: 10
-  spread: 15
-  shift: 10
-  impulseMagnitude: 3
-  breakpoint: 1
+  spread: 0
+  shift: 0
 --- !u!1 &932389195 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100020, guid: 06c2e063594ca3e40a08ba4552f95394,
@@ -3567,12 +3482,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 5
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 1
-  breakpoint: 0
 --- !u!1 &940217218 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100012, guid: 71bd0e524fc3dbe458f3b1ec5849c708,
@@ -3623,12 +3534,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 3
-  breakpoint: 0
 --- !u!138 &940217225
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -3661,6 +3568,33 @@ MonoBehaviour:
   collapse_point: 5
   child_tag: chair_parts
   score: 5
+  blowout_multiplier: 2.75
+  blowout_radius: 1
+  prefabNumbers: 10
+  prefabDestroyTime: 10
+--- !u!1 &955954324 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: 7d108706ee0baa740a23c8fb95a2d83f,
+    type: 3}
+  m_PrefabInternal: {fileID: 1529284756}
+--- !u!114 &955954326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 955954324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d8c813fbefeaad43b0a4068d6559711, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collapse_point: 15
+  child_tag: office_desk
+  score: 20
+  blowout_multiplier: 2.75
+  blowout_radius: 2
+  prefabNumbers: 35
+  prefabDestroyTime: 10
 --- !u!1 &1007866960
 GameObject:
   m_ObjectHideFlags: 0
@@ -3780,12 +3714,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 3
-  breakpoint: 0
 --- !u!138 &1023137074
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -4035,12 +3965,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 1
-  breakpoint: 0
 --- !u!64 &1147095065
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4294,12 +4220,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 5
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 1
-  breakpoint: 0
 --- !u!1 &1364388213
 GameObject:
   m_ObjectHideFlags: 0
@@ -4390,6 +4312,10 @@ MonoBehaviour:
   collapse_point: 7.5
   child_tag: monkeybar_parts
   score: 15
+  blowout_multiplier: 2.75
+  blowout_radius: 1
+  prefabNumbers: 10
+  prefabDestroyTime: 10
 --- !u!1 &1442637185 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100012, guid: 06c2e063594ca3e40a08ba4552f95394,
@@ -4466,12 +4392,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 5
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 1
-  breakpoint: 0
 --- !u!1 &1469924778
 GameObject:
   m_ObjectHideFlags: 0
@@ -4614,12 +4536,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 1
-  breakpoint: 0
 --- !u!54 &1513259931
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4716,7 +4634,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 7d108706ee0baa740a23c8fb95a2d83f, type: 3}
       propertyPath: m_TagString
-      value: Destroyable Obj
+      value: office_desk
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7d108706ee0baa740a23c8fb95a2d83f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.08
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d108706ee0baa740a23c8fb95a2d83f, type: 3}
@@ -4771,12 +4693,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 3
-  breakpoint: 0
 --- !u!138 &1535389936
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -4892,12 +4810,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 5
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 1
-  breakpoint: 0
 --- !u!1 &1542586822 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100048, guid: 06c2e063594ca3e40a08ba4552f95394,
@@ -4961,12 +4875,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 1
-  breakpoint: 0
 --- !u!138 &1542586829
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -5030,12 +4940,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 3
-  breakpoint: 0
 --- !u!138 &1590046875
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -5070,12 +4976,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 1
-  breakpoint: 0
 --- !u!138 &1595596184
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -5214,12 +5116,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 1
-  breakpoint: 0
 --- !u!138 &1699997007
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -5364,12 +5262,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 5
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 1
-  breakpoint: 0
 --- !u!1 &1847632807 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100032, guid: 06c2e063594ca3e40a08ba4552f95394,
@@ -5391,12 +5285,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 1
-  breakpoint: 0
 --- !u!54 &1847632809
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5489,12 +5379,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 3
-  breakpoint: 0
 --- !u!138 &1864718414
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -5623,12 +5509,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 1
-  breakpoint: 0
 --- !u!1 &1907351402 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100030, guid: 71bd0e524fc3dbe458f3b1ec5849c708,
@@ -5679,12 +5561,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 3
-  breakpoint: 0
 --- !u!138 &1907351409
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -5748,12 +5626,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 3
-  breakpoint: 0
 --- !u!138 &1932404084
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -5786,6 +5660,10 @@ MonoBehaviour:
   collapse_point: 7.5
   child_tag: bench_part
   score: 10
+  blowout_multiplier: 2.75
+  blowout_radius: 1
+  prefabNumbers: 10
+  prefabDestroyTime: 10
 --- !u!1 &2074005999 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -5821,12 +5699,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 2
-  breakpoint: 0
 --- !u!54 &2074006003
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5905,12 +5779,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 3
-  breakpoint: 0
 --- !u!138 &2105841738
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -5974,12 +5844,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 3
-  breakpoint: 0
 --- !u!138 &2108164887
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -6043,12 +5909,8 @@ MonoBehaviour:
   break_self_joint: 0
   debriPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
-  prefabNumbers: 10
-  prefabDestroyTime: 10
   spread: 10
   shift: 0
-  impulseMagnitude: 3
-  breakpoint: 0
 --- !u!138 &2140873274
 FixedJoint:
   m_ObjectHideFlags: 0

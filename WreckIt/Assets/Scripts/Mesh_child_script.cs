@@ -17,13 +17,15 @@ public class Mesh_child_script : MonoBehaviour
     //debris generation
     public GameObject debriPrefab;
     private GameObject bb;
-    public int prefabNumbers;
-    public float prefabDestroyTime;
+    private int prefabNumbers;
+    private float prefabDestroyTime;
     public float spread;
     public float shift;
-    public float impulseMagnitude = 1.0f;
-    public float breakpoint;
+    private float impulseMagnitude = 1.0f;
+    //public float breakpoint;
+    private float blowout_radius;
     private bool trigger = false;
+    private float blowout_multiplier;
     // Use this for initialization
     void Start()
     {
@@ -39,14 +41,14 @@ public class Mesh_child_script : MonoBehaviour
     {
         if(collision.impulse.magnitude > collapse_point && !destroyed){
             destroyed = true;
-            Debug.Log(collision.impulse.magnitude);
+            //Debug.Log(collision.impulse.magnitude);
             //transform.SetParent(null);
           
             FixedJoint[] FJs = (GetComponents<FixedJoint>());
             for (int b = 0; b < FJs.Length; b++)
             {
                 //FJs[b].connectedBody.
-                Debug.Log("joint broke");
+                //Debug.Log("joint broke");
                 Destroy(FJs[b]);
             }
             Vector3 force = collision.impulse;
@@ -82,10 +84,12 @@ public class Mesh_child_script : MonoBehaviour
     {
         Rigidbody rb2 = prefab.GetComponent<Rigidbody>();
         rb2.AddForce(force, ForceMode.Impulse);
+        rb2.AddTorque(new Vector3(Random.Range(0.0f, 100.0f), Random.Range(0.0f, 100.0f), Random.Range(0.0f, 100.0f)));
     }
 
     private void createDebris(Vector3 force)
     {
+        Debug.Log("da");
         int counter = prefabNumbers;
         /*
         int offset = 0;
@@ -101,8 +105,10 @@ public class Mesh_child_script : MonoBehaviour
         while (counter > 0)
         {
             GameObject temp = Instantiate<GameObject>(debriPrefab);
+            temp.transform.position = transform.position + new Vector3(0, 0.3f, 0);
+            /*
             Debug.Log(transform.position);
-            temp.transform.position = parent.transform.position + transform.localPosition;
+            
             //check the direction
             Vector3 tempF = force;
             //print(Mathf.Abs(tempF.x - 0f) < 0.01f);
@@ -213,15 +219,40 @@ public class Mesh_child_script : MonoBehaviour
                     tempF.y = maxPower;
                 }
             }
-            tempF.Scale(new Vector3(1f * impulseMagnitude, 1f * impulseMagnitude, 1f * impulseMagnitude));
-            print(tempF);
-            addForceToPrefab(temp, tempF);
+            */
+            //Vector3 blowout_up = force.normalized;
+            Vector3 blowout_up = Vector3.up;
+            Vector3 blowout_xz = Vector3.right * (Random.Range(0.0f, blowout_radius) * blowout_multiplier);
+            blowout_xz = Quaternion.AngleAxis(Random.Range(0, 360.0f), Vector3.up) * blowout_xz;
+            Vector3 blowout = blowout_up + blowout_xz;
+            blowout.Normalize();
+            impulseMagnitude = Random.Range(0.0f, force.magnitude) * blowout_multiplier;
+            blowout *= impulseMagnitude;
+
+            //tempF.Scale(new Vector3(1f * impulseMagnitude, 1f * impulseMagnitude, 1f * impulseMagnitude));
+            //print(tempF);
+            addForceToPrefab(temp, blowout);
             Destroy(temp, prefabDestroyTime);
             counter--;
 
         }
     }
-
+    public void set_BO_radius(float f)
+    {
+        blowout_radius = f;
+    }
+    public void set_BO_mult(float f)
+    {
+        blowout_multiplier = f;
+    }
+    public void set_prefab_num(int i)
+    {
+        prefabNumbers = i;
+    }
+    public void set_prefab_des_t(float f)
+    {
+        prefabDestroyTime = f;
+    }
 
 
 

@@ -9,6 +9,7 @@ TagManager:
   - chair_parts
   - Debris
   - monkeybar_parts
+  - office_desk
   layers:
   - Default
   - TransparentFX

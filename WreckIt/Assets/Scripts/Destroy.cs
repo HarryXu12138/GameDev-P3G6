@@ -75,10 +75,13 @@ public class Destroy : MonoBehaviour {
         startPoint.y += offset;
         startPoint.z += offset;
         */
+
+        
         while (counter > 0)
         {
             GameObject temp = GameObject.Instantiate<GameObject>(debriPrefab);
-            temp.transform.position = transform.position;
+            temp.transform.position = transform.position + new Vector3(0, 0.5f, 0);
+            
             //check the direction
             Vector3 tempF = force;
             //print(Mathf.Abs(tempF.x - 0f) < 0.01f);
@@ -185,6 +188,12 @@ public class Destroy : MonoBehaviour {
                     tempF.y = maxPower;
                 }
             }
+            /*
+            if(tempF.y < 0)
+            {
+                tempF.y = -tempF.y;
+            }
+            */
             tempF.Scale(new Vector3(1f * impulseMagnitude, 1f * impulseMagnitude, 1f * impulseMagnitude));
             print(tempF);
             addForceToPrefab(temp, tempF);
