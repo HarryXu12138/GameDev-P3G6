@@ -13,7 +13,7 @@ public class LevelSelectorButtons : MonoBehaviour {
 	void Start () {
         Level1Button.onClick.AddListener(delegate { ButtonClicked(1); });
         Level2Button.onClick.AddListener(delegate { ButtonClicked(2); });
-        Level2Button.onClick.AddListener(delegate { ButtonClicked(3); });
+        Level3Button.onClick.AddListener(delegate { ButtonClicked(3); });
         GoBackButton.onClick.AddListener(ClickGoBackButton);
     }
 	
@@ -29,10 +29,6 @@ public class LevelSelectorButtons : MonoBehaviour {
 
     private void ButtonClicked(int buttonNo)
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
-        /*if (buttonNo == 1)
-        {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
-        }*/
+        UnityEngine.SceneManagement.SceneManager.LoadScene("UITestScene");
     }
 }

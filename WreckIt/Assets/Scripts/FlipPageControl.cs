@@ -8,7 +8,6 @@ public class FlipPageControl : MonoBehaviour {
     public Button prevPage;
     public int flipSpeed = 5;
 
-    private List<string> bookPageNames;
     private List<GameObject> bookPages;
     private int currentPageIndex = 0;
     private int flippingPageIndex = 0;
@@ -67,7 +66,7 @@ public class FlipPageControl : MonoBehaviour {
 
     private void initializeBookPages()
     {
-        bookPageNames = new List<string>();
+        List<string> bookPageNames = new List<string>();
         bookPageNames.Add("Page1");
         bookPageNames.Add("Page2");
         bookPageNames.Add("Page3");
@@ -76,6 +75,7 @@ public class FlipPageControl : MonoBehaviour {
         for (int i = 0; i < bookPageNames.Count; ++i)
         {
             GameObject page = GameObject.Find(bookPageNames[i]);
+            bookPages.Add(page);
             //page.transform.bookPages.Add(GameObject.Find(bookPageNames[i]));
         }
         bookPages[0].SetActive(true);
