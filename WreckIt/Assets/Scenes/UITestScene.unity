@@ -897,48 +897,6 @@ FixedJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!1001 &310426379
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4050968244098674, guid: 555690ebade2d474ea21d88f5e63e01e, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -6.0720334
-      objectReference: {fileID: 0}
-    - target: {fileID: 4050968244098674, guid: 555690ebade2d474ea21d88f5e63e01e, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0.46725142
-      objectReference: {fileID: 0}
-    - target: {fileID: 4050968244098674, guid: 555690ebade2d474ea21d88f5e63e01e, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -4.7847047
-      objectReference: {fileID: 0}
-    - target: {fileID: 4050968244098674, guid: 555690ebade2d474ea21d88f5e63e01e, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4050968244098674, guid: 555690ebade2d474ea21d88f5e63e01e, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4050968244098674, guid: 555690ebade2d474ea21d88f5e63e01e, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4050968244098674, guid: 555690ebade2d474ea21d88f5e63e01e, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4050968244098674, guid: 555690ebade2d474ea21d88f5e63e01e, type: 2}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 555690ebade2d474ea21d88f5e63e01e, type: 2}
-  m_IsPrefabAsset: 0
 --- !u!1 &317088622
 GameObject:
   m_ObjectHideFlags: 0
@@ -3559,15 +3517,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d8c813fbefeaad43b0a4068d6559711, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collapse_point: 5
+  collapse_point: 7.5
   child_tag: chair_parts
   score: 5
-  blowout_multiplier: 3
-  blowout_radius: 2
-  prefabNumbers: 10
+  blowout_multiplier: 3.75
+  blowout_radius: 3
+  prefabNumbers: 6
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
+  timeController: {fileID: 0}
 --- !u!1 &955954324 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: 7d108706ee0baa740a23c8fb95a2d83f,
@@ -3587,12 +3546,13 @@ MonoBehaviour:
   collapse_point: 15
   child_tag: office_desk
   score: 20
-  blowout_multiplier: 3
-  blowout_radius: 2
+  blowout_multiplier: 3.75
+  blowout_radius: 3
   prefabNumbers: 35
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
+  timeController: {fileID: 0}
 --- !u!1 &1007866960
 GameObject:
   m_ObjectHideFlags: 0
@@ -4304,12 +4264,13 @@ MonoBehaviour:
   collapse_point: 7.5
   child_tag: monkeybar_parts
   score: 15
-  blowout_multiplier: 3
-  blowout_radius: 2
-  prefabNumbers: 10
+  blowout_multiplier: 3.75
+  blowout_radius: 3
+  prefabNumbers: 5
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
+  timeController: {fileID: 0}
 --- !u!1 &1442637185 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100012, guid: 06c2e063594ca3e40a08ba4552f95394,
@@ -5627,12 +5588,13 @@ MonoBehaviour:
   collapse_point: 7.5
   child_tag: bench_part
   score: 10
-  blowout_multiplier: 3
-  blowout_radius: 2
-  prefabNumbers: 10
+  blowout_multiplier: 3.75
+  blowout_radius: 3
+  prefabNumbers: 5
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1328440067225012, guid: 0874be6916d39d04b83c4e4d0bc97786,
     type: 2}
+  timeController: {fileID: 0}
 --- !u!1 &2074005999 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,

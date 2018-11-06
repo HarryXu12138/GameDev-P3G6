@@ -14,6 +14,7 @@ public class mesh_prefab_test : MonoBehaviour {
     public int prefabNumbers;
     public float prefabDestroyTime;
     public GameObject debrisPrefab;
+    public GameObject timeController;
     // Use this for initialization
     void Start () {
         player = GameObject.Find("Main Camera");
@@ -26,6 +27,7 @@ public class mesh_prefab_test : MonoBehaviour {
             children[a].SendMessage("set_prefab_num", prefabNumbers);
             children[a].SendMessage("set_prefab_des_t", prefabDestroyTime);
             children[a].SendMessage("set_debris_prefab", debrisPrefab);
+            //children[a].SendMessage("set_tc", timeController);
             children[a].GetComponent<Rigidbody>().isKinematic = false;
             children[a].GetComponent<Rigidbody>().useGravity = true;
         }

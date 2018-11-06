@@ -26,6 +26,7 @@ public class Mesh_child_script : MonoBehaviour
     private float blowout_radius;
     private bool trigger = false;
     private float blowout_multiplier;
+    //private GameObject timeControl = null;
     // Use this for initialization
     void Start()
     {
@@ -90,6 +91,7 @@ public class Mesh_child_script : MonoBehaviour
     private void createDebris(Vector3 force)
     {
         Debug.Log("da");
+        //timeControl.SendMessage("slowDown", SendMessageOptions.DontRequireReceiver);
         int counter = prefabNumbers;
         /*
         int offset = 0;
@@ -257,7 +259,12 @@ public class Mesh_child_script : MonoBehaviour
     {
         debriPrefab = go;
     }
-
+    /*
+    public void set_tc(GameObject go)
+    {
+        timeControl = go;
+    }
+    */
 
 }
 
