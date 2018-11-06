@@ -11,7 +11,12 @@ ModelImporter:
     2300000: officeDesk
     3300000: officeDesk
     4300000: officeDesk
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: initialShadingGroup
+    second: {fileID: 2100000, guid: 4752e26db8abaa8438c7194a661ecd91, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

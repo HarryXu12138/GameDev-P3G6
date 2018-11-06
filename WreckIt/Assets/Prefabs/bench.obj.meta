@@ -106,7 +106,12 @@ ModelImporter:
     4300034: stands_bench_bot_stand2
     4300036: stands_bench_stand1_top
     4300038: stands_bench_stand2_top
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: initialShadingGroup
+    second: {fileID: 2100000, guid: 6978514680ed3e848987cba2e8f70c30, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

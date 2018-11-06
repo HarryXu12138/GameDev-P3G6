@@ -8,9 +8,9 @@ public class Mesh_child_script : MonoBehaviour
     private GameObject[] components;
     private Rigidbody rb;
     private GameObject da_ball;
-    public string group;
+    //public string group;
     private float collapse_point;
-    public GameObject parent;
+    private GameObject parent;
     private bool destroyed;
     public bool break_self_joint;
 
@@ -32,10 +32,11 @@ public class Mesh_child_script : MonoBehaviour
     {
         destroyed = false;
         da_ball = GameObject.Find("da_ball");
-        components = GameObject.FindGameObjectsWithTag(group);
+        //components = GameObject.FindGameObjectsWithTag(group);
         rb = GetComponent<Rigidbody>();
         transform.parent = parent.transform;
         //transform.SetParent(parent.transform);
+        
     }
 
     public void OnCollisionEnter(Collision collision)
@@ -62,7 +63,7 @@ public class Mesh_child_script : MonoBehaviour
             print("Bulls Eyes");
 
             
-            parent.SendMessage("add_score", SendMessageOptions.DontRequireReceiver);
+            parent.SendMessage("Add_score", SendMessageOptions.DontRequireReceiver);
         }
 
 
@@ -239,33 +240,36 @@ public class Mesh_child_script : MonoBehaviour
 
         }
     }
-    public void set_BO_radius(float f)
+    public void Set_BO_radius(float f)
     {
         blowout_radius = f;
     }
-    public void set_BO_mult(float f)
+    public void Set_BO_mult(float f)
     {
         blowout_multiplier = f;
     }
-    public void set_prefab_num(int i)
+    public void Set_prefab_num(int i)
     {
         prefabNumbers = i;
     }
-    public void set_prefab_des_t(float f)
+    public void Set_prefab_des_t(float f)
     {
         prefabDestroyTime = f;
     }
-    public void set_debris_prefab(GameObject go)
+    public void Set_debris_prefab(GameObject go)
     {
         debriPrefab = go;
     }
     /*
-    public void set_tc(GameObject go)
+    public void Set_tc(GameObject go)
     {
         timeControl = go;
     }
     */
-
+    public void Set_parent(GameObject go)
+    {
+        parent = go;
+    }
 }
 
 

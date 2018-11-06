@@ -8,25 +8,55 @@ ModelImporter:
     100004: officeChair_seat
     100006: officeChair_swivel
     100008: wheel_officeChair
+    100010: officeChair_wheel1
+    100012: officeChair_wheel2
+    100014: officeChair_wheel3
+    100016: officeChair_wheel4
+    100018: officeChair_wheel5
     400000: //RootNode
     400002: officeChair_back
     400004: officeChair_seat
     400006: officeChair_swivel
     400008: wheel_officeChair
+    400010: officeChair_wheel1
+    400012: officeChair_wheel2
+    400014: officeChair_wheel3
+    400016: officeChair_wheel4
+    400018: officeChair_wheel5
     2100000: initialShadingGroup
     2300000: officeChair_back
     2300002: officeChair_seat
     2300004: officeChair_swivel
     2300006: wheel_officeChair
+    2300008: officeChair_wheel1
+    2300010: officeChair_wheel2
+    2300012: officeChair_wheel3
+    2300014: officeChair_wheel4
+    2300016: officeChair_wheel5
     3300000: officeChair_back
     3300002: officeChair_seat
     3300004: officeChair_swivel
     3300006: wheel_officeChair
+    3300008: officeChair_wheel1
+    3300010: officeChair_wheel2
+    3300012: officeChair_wheel3
+    3300014: officeChair_wheel4
+    3300016: officeChair_wheel5
     4300000: officeChair_back
     4300002: officeChair_seat
     4300004: officeChair_swivel
     4300006: wheel_officeChair
-  externalObjects: {}
+    4300008: officeChair_wheel1
+    4300010: officeChair_wheel2
+    4300012: officeChair_wheel3
+    4300014: officeChair_wheel4
+    4300016: officeChair_wheel5
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: initialShadingGroup
+    second: {fileID: 2100000, guid: a7b37f909d1d1554d96970771cc0c930, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
