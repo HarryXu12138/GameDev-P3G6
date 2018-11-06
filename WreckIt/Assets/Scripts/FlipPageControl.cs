@@ -41,6 +41,7 @@ public class FlipPageControl : MonoBehaviour {
         currentPageIndex += 1;
         bookPages[currentPageIndex].SetActive(true);
         bookPages[currentPageIndex].transform.Find("BehindPage").gameObject.SetActive(false);
+        bookPages[currentPageIndex].transform.SetAsLastSibling();
     }
 
     private void clickPrevPage()
@@ -55,7 +56,7 @@ public class FlipPageControl : MonoBehaviour {
         flippingPageDirection = false;
         currentPageIndex -= 1;
         flippingPageIndex = currentPageIndex;
-        bookPages[flippingPageIndex].transform.eulerAngles = new Vector3(0, 180, 0);
+        bookPages[flippingPageIndex].transform.rotation = Quaternion.Euler(0, 180, 0);
         if (flippingPageIndex - 1 >= 0)
         {
             bookPages[flippingPageIndex - 1].SetActive(true);
@@ -70,13 +71,14 @@ public class FlipPageControl : MonoBehaviour {
         bookPageNames.Add("Page1");
         bookPageNames.Add("Page2");
         bookPageNames.Add("Page3");
+        bookPageNames.Add("Page4");
 
         bookPages = new List<GameObject>();
         for (int i = 0; i < bookPageNames.Count; ++i)
         {
             GameObject page = GameObject.Find(bookPageNames[i]);
             bookPages.Add(page);
-            //page.transform.bookPages.Add(GameObject.Find(bookPageNames[i]));
+            page.SetActive(false);
         }
         bookPages[0].SetActive(true);
         bookPages[0].transform.Find("BehindPage").gameObject.SetActive(false);
@@ -91,14 +93,6 @@ public class FlipPageControl : MonoBehaviour {
     {
         if (flipping)
         {
-            if (flippingPageDirection)
-            {
-                bookPages[flippingPageIndex].transform.Rotate(0, flipSpeed * Time.deltaTime, 0);
-            }
-            else
-            {
-                bookPages[flippingPageIndex].transform.Rotate(0, -flipSpeed * Time.deltaTime, 0);
-            }
             if (bookPages[flippingPageIndex].transform.eulerAngles.y > 180 || bookPages[flippingPageIndex].transform.eulerAngles.y < 0)
             {
                 flipping = false;
@@ -115,19 +109,26 @@ public class FlipPageControl : MonoBehaviour {
                     bookPages[flippingPageIndex + 1].SetActive(false);
                 }
             }
-            if (flippingPageDirection && bookPages[flippingPageIndex].transform.eulerAngles.y > 80)
+            if (flippingPageDirection)
+            {
+                bookPages[flippingPageIndex].transform.Rotate(0, flipSpeed * Time.deltaTime, 0);
+            }
+            else
+            {
+                bookPages[flippingPageIndex].transform.Rotate(0, -flipSpeed * Time.deltaTime, 0);
+            }
+            if (flippingPageDirection && bookPages[flippingPageIndex].transform.eulerAngles.y > 90)
             {
                 bookPages[flippingPageIndex].transform.Find("FrontPage").gameObject.SetActive(false);
                 bookPages[flippingPageIndex].transform.Find("BehindPage").gameObject.SetActive(true);
             }
-            if (!flippingPageDirection && bookPages[flippingPageIndex].transform.eulerAngles.y < 100)
+            if (!flippingPageDirection && bookPages[flippingPageIndex].transform.eulerAngles.y < 90)
             {
                 bookPages[flippingPageIndex].transform.Find("FrontPage").gameObject.SetActive(true);
                 bookPages[flippingPageIndex].transform.Find("BehindPage").gameObject.SetActive(false);
             }
-            bookPages[flippingPageIndex].transform.SetAsLastSibling();
-            GameObject.Find("PrevPage").transform.SetAsLastSibling();
-            GameObject.Find("NextPage").transform.SetAsLastSibling();
+            //bookPages[flippingPageIndex].transform.SetAsLastSibling();
+            //GameObject.Find("Buttons").transform.SetAsFirstSibling();
         }
     }
 }
