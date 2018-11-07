@@ -73,6 +73,7 @@ public class FlipPageControl : MonoBehaviour {
         bookPageNames.Add("Page2");
         bookPageNames.Add("Page3");
         bookPageNames.Add("Page4");
+        bookPageNames.Add("Page5");
 
         bookPages = new List<GameObject>();
         for (int i = 0; i < bookPageNames.Count; ++i)
