@@ -29,6 +29,8 @@ public class LevelSelectorButtons : MonoBehaviour {
 
     private void ButtonClicked(int buttonNo)
     {
-        if (buttonNo == 1) UnityEngine.SceneManagement.SceneManager.LoadScene("OfficeScene_test");
+        if (buttonNo == 1) UnityEngine.SceneManagement.SceneManager.LoadScene("HomeScene");
+        if (buttonNo == 2) UnityEngine.SceneManagement.SceneManager.LoadScene("OfficeScene_test");
+        if (buttonNo == 3) UnityEngine.SceneManagement.SceneManager.LoadScene("ParkScene");
     }
 }

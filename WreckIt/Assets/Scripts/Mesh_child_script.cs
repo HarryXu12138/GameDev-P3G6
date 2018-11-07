@@ -129,9 +129,9 @@ public class Mesh_child_script : MonoBehaviour
                     // print("work");
                     tempF.z += Random.Range(-spread + tempF.z , spread + tempF.z );
                     tempF.y += Random.Range(0, spread*1.25f);
-                    if (tempF.y < 2.0f)
+                    if (tempF.y < 2.7f)
                     {
-                        tempF.y = 2.0f;
+                        tempF.y = 2.7f;
                         
                     }
                     
@@ -141,9 +141,9 @@ public class Mesh_child_script : MonoBehaviour
                     //print("work");
                     tempF.z += Random.Range(-spread, spread);
                     tempF.y += Random.Range(0,spread*1.25f);
-                    if (tempF.y < 2.0f)
+                    if (tempF.y < 2.7f)
                     {
-                        tempF.y = 2.0f;
+                        tempF.y = 2.7f;
                         
                     }
                     
@@ -159,9 +159,9 @@ public class Mesh_child_script : MonoBehaviour
                     //print("work");
                     tempF.x += Random.Range(-spread + tempF.x , spread + tempF.x );
                     tempF.y += Random.Range(0, spread * 1.25f);
-                    if (tempF.y < 2.0f)
+                    if (tempF.y < 2.7f)
                     {
-                        tempF.y = 2.0f;
+                        tempF.y = 2.7f;
 
                     }
 
@@ -171,9 +171,9 @@ public class Mesh_child_script : MonoBehaviour
                     //print("work");
                     tempF.x += Random.Range(-spread, spread);
                     tempF.y += Random.Range(0, spread * 1.25f);
-                    if (tempF.y < 2.0f)
+                    if (tempF.y < 2.7f)
                     {
-                        tempF.y = 2.0f;
+                        tempF.y = 2.7f;
 
                     }
 
@@ -193,9 +193,9 @@ public class Mesh_child_script : MonoBehaviour
                     tempF.z += Random.Range(-spread + tempF.z , spread + tempF.z );
                     tempF.x += Random.Range(-spread, spread);
                 }
-                if (tempF.y < 2.0f)
+                if (tempF.y < 2.7f)
                 {
-                    tempF.y = 2.0f;
+                    tempF.y = 2.7f;
 
                 }
                 
