@@ -119,28 +119,30 @@ public class FlipPageControl : MonoBehaviour {
                     bookPages[flippingPageIndex + 1].SetActive(false);
                 }
             }
+        }
+        if (flipping)
+        {
             if (flippingPageDirection)
             {
                 bookPages[flippingPageIndex].transform.Rotate(0, flipSpeed * Time.deltaTime, 0);
+                if (bookPages[flippingPageIndex].transform.eulerAngles.y > 88)
+                {
+                    bookPages[flippingPageIndex].transform.Find("FrontPage").gameObject.SetActive(false);
+                    bookPages[flippingPageIndex].transform.Find("BehindPage").gameObject.SetActive(true);
+                    bookPages[flippingPageIndex + 1].transform.Find("FrontPage").gameObject.SetActive(true);
+                    if (flippingPageIndex - 1 > 0) bookPages[flippingPageIndex - 1].transform.Find("BehindPage").gameObject.SetActive(false);
+                }
             }
             else
             {
                 bookPages[flippingPageIndex].transform.Rotate(0, -flipSpeed * Time.deltaTime, 0);
-            }
-            //Debug.Log(bookPages[flippingPageIndex].transform.eulerAngles.y);
-            if (flippingPageDirection && bookPages[flippingPageIndex].transform.eulerAngles.y > 90)
-            {
-                bookPages[flippingPageIndex].transform.Find("FrontPage").gameObject.SetActive(false);
-                bookPages[flippingPageIndex].transform.Find("BehindPage").gameObject.SetActive(true);
-                bookPages[flippingPageIndex + 1].transform.Find("FrontPage").gameObject.SetActive(true);
-                if (flippingPageIndex - 1 > 0) bookPages[flippingPageIndex - 1].transform.Find("BehindPage").gameObject.SetActive(false);
-            }
-            if (!flippingPageDirection && bookPages[flippingPageIndex].transform.eulerAngles.y < 90)
-            {
-                bookPages[flippingPageIndex].transform.Find("FrontPage").gameObject.SetActive(true);
-                bookPages[flippingPageIndex].transform.Find("BehindPage").gameObject.SetActive(false);
-                if (flippingPageIndex - 1 > 0) bookPages[flippingPageIndex - 1].transform.Find("BehindPage").gameObject.SetActive(true);
-                if (flippingPageIndex + 1 < bookPages.Count) bookPages[flippingPageIndex + 1].transform.Find("FrontPage").gameObject.SetActive(false);
+                if (bookPages[flippingPageIndex].transform.eulerAngles.y < 92)
+                {
+                    bookPages[flippingPageIndex].transform.Find("FrontPage").gameObject.SetActive(true);
+                    bookPages[flippingPageIndex].transform.Find("BehindPage").gameObject.SetActive(false);
+                    if (flippingPageIndex - 1 > 0) bookPages[flippingPageIndex - 1].transform.Find("BehindPage").gameObject.SetActive(true);
+                    if (flippingPageIndex + 1 < bookPages.Count) bookPages[flippingPageIndex + 1].transform.Find("FrontPage").gameObject.SetActive(false);
+                }
             }
         }
     }
