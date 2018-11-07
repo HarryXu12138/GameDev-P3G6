@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -339,7 +339,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -347,7 +346,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 31988286}
 --- !u!1 &33145588 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100010, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -426,7 +424,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -434,7 +431,6 @@ MonoBehaviour:
   prefabDestroyTime: 3
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 33407928}
 --- !u!1 &41771183 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100010, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -3851,7 +3847,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -3859,7 +3854,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 227770880}
 --- !u!1 &234622271 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100018, guid: 71bd0e524fc3dbe458f3b1ec5849c708,
@@ -4468,7 +4462,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -4476,7 +4469,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 261243298}
 --- !u!1 &269061230 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: 7d108706ee0baa740a23c8fb95a2d83f,
@@ -4494,7 +4486,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 13
-  child_tag: office_desk
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 4
@@ -4502,7 +4493,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1306400732486094, guid: 9114d86c9a550d74d922a0d1287c9047,
     type: 2}
-  self: {fileID: 269061230}
 --- !u!1 &270203063 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100008, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -5168,7 +5158,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 13
-  child_tag: office_desk
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 4
@@ -5176,7 +5165,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1306400732486094, guid: 9114d86c9a550d74d922a0d1287c9047,
     type: 2}
-  self: {fileID: 297088401}
 --- !u!1001 &298744768
 Prefab:
   m_ObjectHideFlags: 0
@@ -6470,7 +6458,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 13
-  child_tag: office_desk
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 4
@@ -6478,7 +6465,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1306400732486094, guid: 9114d86c9a550d74d922a0d1287c9047,
     type: 2}
-  self: {fileID: 358519598}
 --- !u!1 &359331378 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100010, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -6557,7 +6543,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -6565,7 +6550,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 362281963}
 --- !u!1 &364270432 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100022, guid: 71bd0e524fc3dbe458f3b1ec5849c708,
@@ -6818,7 +6802,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -6826,7 +6809,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 382976408}
 --- !u!1 &383961611 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100012, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -7720,7 +7702,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -7728,7 +7709,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 448274771}
 --- !u!1 &449160590 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100004, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -8196,7 +8176,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 13
-  child_tag: office_desk
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 4
@@ -8204,7 +8183,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1306400732486094, guid: 9114d86c9a550d74d922a0d1287c9047,
     type: 2}
-  self: {fileID: 461964038}
 --- !u!1001 &462291277
 Prefab:
   m_ObjectHideFlags: 0
@@ -8806,7 +8784,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -8814,7 +8791,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 476656722}
 --- !u!1 &480489047 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100022, guid: 71bd0e524fc3dbe458f3b1ec5849c708,
@@ -9621,7 +9597,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 13
-  child_tag: office_desk
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 4
@@ -9629,7 +9604,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1306400732486094, guid: 9114d86c9a550d74d922a0d1287c9047,
     type: 2}
-  self: {fileID: 507766042}
 --- !u!1 &507872124 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -9965,7 +9939,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 10
-  child_tag: bench_part
   score: 5
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -9973,7 +9946,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1546160886296192, guid: 1f9b7fbaa7d3f6b4c9b085bc57de061a,
     type: 2}
-  self: {fileID: 525362427}
 --- !u!1 &537134532 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100012, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -10876,7 +10848,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -10884,7 +10855,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 592263118}
 --- !u!1 &592414935 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 7d108706ee0baa740a23c8fb95a2d83f,
@@ -12917,7 +12887,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 13
-  child_tag: office_desk
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 4
@@ -12925,7 +12894,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1306400732486094, guid: 9114d86c9a550d74d922a0d1287c9047,
     type: 2}
-  self: {fileID: 709817038}
 --- !u!1 &719743275 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100014, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -13165,7 +13133,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -13173,7 +13140,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 738540470}
 --- !u!1 &744798665 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100014, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -13731,7 +13697,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 10
-  child_tag: bench_part
   score: 5
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -13739,7 +13704,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1546160886296192, guid: 1f9b7fbaa7d3f6b4c9b085bc57de061a,
     type: 2}
-  self: {fileID: 773425518}
 --- !u!1 &774254513 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -13757,7 +13721,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -13765,7 +13728,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 774254513}
 --- !u!1 &781588916 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100008, guid: 71bd0e524fc3dbe458f3b1ec5849c708,
@@ -14349,7 +14311,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 10
-  child_tag: bench_part
   score: 5
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -14357,7 +14318,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1546160886296192, guid: 1f9b7fbaa7d3f6b4c9b085bc57de061a,
     type: 2}
-  self: {fileID: 811701609}
 --- !u!1 &814574955 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100012, guid: 71bd0e524fc3dbe458f3b1ec5849c708,
@@ -14584,7 +14544,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -14592,7 +14551,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 827190724}
 --- !u!1001 &831255187
 Prefab:
   m_ObjectHideFlags: 0
@@ -14847,7 +14805,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 13
-  child_tag: office_desk
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 4
@@ -14855,7 +14812,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1306400732486094, guid: 9114d86c9a550d74d922a0d1287c9047,
     type: 2}
-  self: {fileID: 838896184}
 --- !u!1 &840572765 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -15597,7 +15553,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -15605,7 +15560,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 889582642}
 --- !u!1 &892212814 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100012, guid: 71bd0e524fc3dbe458f3b1ec5849c708,
@@ -16054,7 +16008,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -16062,7 +16015,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 906986742}
 --- !u!1 &909314880 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100006, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -16289,7 +16241,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -16297,7 +16248,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 912235406}
 --- !u!1 &926347383 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100020, guid: 71bd0e524fc3dbe458f3b1ec5849c708,
@@ -16820,7 +16770,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -16828,7 +16777,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 949073596}
 --- !u!1 &957166026 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100014, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -17691,7 +17639,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 10
-  child_tag: bench_part
   score: 5
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -17699,7 +17646,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1546160886296192, guid: 1f9b7fbaa7d3f6b4c9b085bc57de061a,
     type: 2}
-  self: {fileID: 1019516592}
 --- !u!1 &1020032977 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100004, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -17778,7 +17724,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 13
-  child_tag: office_desk
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 4
@@ -17786,7 +17731,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1306400732486094, guid: 9114d86c9a550d74d922a0d1287c9047,
     type: 2}
-  self: {fileID: 1028926292}
 --- !u!1 &1028966155
 GameObject:
   m_ObjectHideFlags: 0
@@ -18066,7 +18010,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 10
-  child_tag: bench_part
   score: 5
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -18074,7 +18017,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1546160886296192, guid: 1f9b7fbaa7d3f6b4c9b085bc57de061a,
     type: 2}
-  self: {fileID: 1045377535}
 --- !u!1001 &1050964637
 Prefab:
   m_ObjectHideFlags: 0
@@ -18142,7 +18084,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 10
-  child_tag: bench_part
   score: 5
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -18150,7 +18091,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1546160886296192, guid: 1f9b7fbaa7d3f6b4c9b085bc57de061a,
     type: 2}
-  self: {fileID: 1052065612}
 --- !u!1 &1053126989 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100008, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -18445,7 +18385,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -18453,7 +18392,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 1077159826}
 --- !u!1 &1077595507 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100004, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -18593,7 +18531,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 13
-  child_tag: office_desk
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 4
@@ -18601,7 +18538,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1306400732486094, guid: 9114d86c9a550d74d922a0d1287c9047,
     type: 2}
-  self: {fileID: 1083620286}
 --- !u!1 &1086654127 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100022, guid: 71bd0e524fc3dbe458f3b1ec5849c708,
@@ -19084,7 +19020,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 10
-  child_tag: bench_part
   score: 5
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -19092,7 +19027,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1546160886296192, guid: 1f9b7fbaa7d3f6b4c9b085bc57de061a,
     type: 2}
-  self: {fileID: 1101873028}
 --- !u!1 &1104327595 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100016, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -19232,7 +19166,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 10
-  child_tag: bench_part
   score: 5
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -19240,7 +19173,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1546160886296192, guid: 1f9b7fbaa7d3f6b4c9b085bc57de061a,
     type: 2}
-  self: {fileID: 1107964835}
 --- !u!1 &1114224755 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: 7d108706ee0baa740a23c8fb95a2d83f,
@@ -19258,7 +19190,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 13
-  child_tag: office_desk
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 4
@@ -19266,7 +19197,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1306400732486094, guid: 9114d86c9a550d74d922a0d1287c9047,
     type: 2}
-  self: {fileID: 1114224755}
 --- !u!1 &1121229443 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100010, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -19406,7 +19336,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -19414,7 +19343,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 1135314325}
 --- !u!1 &1138408195 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100008, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -20198,7 +20126,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 13
-  child_tag: office_desk
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 4
@@ -20206,7 +20133,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1306400732486094, guid: 9114d86c9a550d74d922a0d1287c9047,
     type: 2}
-  self: {fileID: 1179597114}
 --- !u!1 &1182565625 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100004, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -21949,63 +21875,63 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 71bd0e524fc3dbe458f3b1ec5849c708, type: 3}
       propertyPath: m_TagString
-      value: bench_part
+      value: bench_part1
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 71bd0e524fc3dbe458f3b1ec5849c708, type: 3}
       propertyPath: m_TagString
-      value: bench_part
+      value: bench_part1
       objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 71bd0e524fc3dbe458f3b1ec5849c708, type: 3}
       propertyPath: m_TagString
-      value: bench_part
+      value: bench_part1
       objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 71bd0e524fc3dbe458f3b1ec5849c708, type: 3}
       propertyPath: m_TagString
-      value: bench_part
+      value: bench_part1
       objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: 71bd0e524fc3dbe458f3b1ec5849c708, type: 3}
       propertyPath: m_TagString
-      value: bench_part
+      value: bench_part1
       objectReference: {fileID: 0}
     - target: {fileID: 100016, guid: 71bd0e524fc3dbe458f3b1ec5849c708, type: 3}
       propertyPath: m_TagString
-      value: bench_part
+      value: bench_part1
       objectReference: {fileID: 0}
     - target: {fileID: 100018, guid: 71bd0e524fc3dbe458f3b1ec5849c708, type: 3}
       propertyPath: m_TagString
-      value: bench_part
+      value: bench_part1
       objectReference: {fileID: 0}
     - target: {fileID: 100020, guid: 71bd0e524fc3dbe458f3b1ec5849c708, type: 3}
       propertyPath: m_TagString
-      value: bench_part
+      value: bench_part1
       objectReference: {fileID: 0}
     - target: {fileID: 100022, guid: 71bd0e524fc3dbe458f3b1ec5849c708, type: 3}
       propertyPath: m_TagString
-      value: bench_part
+      value: bench_part1
       objectReference: {fileID: 0}
     - target: {fileID: 100030, guid: 71bd0e524fc3dbe458f3b1ec5849c708, type: 3}
       propertyPath: m_TagString
-      value: bench_part
+      value: bench_part1
       objectReference: {fileID: 0}
     - target: {fileID: 100032, guid: 71bd0e524fc3dbe458f3b1ec5849c708, type: 3}
       propertyPath: m_TagString
-      value: bench_part
+      value: bench_part1
       objectReference: {fileID: 0}
     - target: {fileID: 100034, guid: 71bd0e524fc3dbe458f3b1ec5849c708, type: 3}
       propertyPath: m_TagString
-      value: bench_part
+      value: bench_part1
       objectReference: {fileID: 0}
     - target: {fileID: 100036, guid: 71bd0e524fc3dbe458f3b1ec5849c708, type: 3}
       propertyPath: m_TagString
-      value: bench_part
+      value: bench_part1
       objectReference: {fileID: 0}
     - target: {fileID: 100038, guid: 71bd0e524fc3dbe458f3b1ec5849c708, type: 3}
       propertyPath: m_TagString
-      value: bench_part
+      value: bench_part1
       objectReference: {fileID: 0}
     - target: {fileID: 100040, guid: 71bd0e524fc3dbe458f3b1ec5849c708, type: 3}
       propertyPath: m_TagString
-      value: bench_part
+      value: bench_part1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 71bd0e524fc3dbe458f3b1ec5849c708, type: 3}
       propertyPath: m_Name
@@ -22418,7 +22344,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -22426,7 +22351,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 1283691313}
 --- !u!1 &1284281393 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -22444,7 +22368,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -22452,7 +22375,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 1284281393}
 --- !u!1 &1289348065 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100016, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -22844,7 +22766,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -22852,7 +22773,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 1312834759}
 --- !u!1 &1315800025 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100016, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -22992,7 +22912,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 13
-  child_tag: office_desk
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 4
@@ -23000,7 +22919,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1306400732486094, guid: 9114d86c9a550d74d922a0d1287c9047,
     type: 2}
-  self: {fileID: 1321283551}
 --- !u!1001 &1322197249
 Prefab:
   m_ObjectHideFlags: 0
@@ -23189,7 +23107,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 13
-  child_tag: office_desk
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 4
@@ -23197,7 +23114,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1306400732486094, guid: 9114d86c9a550d74d922a0d1287c9047,
     type: 2}
-  self: {fileID: 1327164379}
 --- !u!1 &1332098967 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100012, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -23818,7 +23734,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -23826,7 +23741,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 1380090351}
 --- !u!1 &1381382753 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 71bd0e524fc3dbe458f3b1ec5849c708,
@@ -23844,7 +23758,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 10
-  child_tag: bench_part
   score: 5
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -23852,7 +23765,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1546160886296192, guid: 1f9b7fbaa7d3f6b4c9b085bc57de061a,
     type: 2}
-  self: {fileID: 1381382753}
 --- !u!1 &1381855443 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100004, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -24053,7 +23965,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -24061,7 +23972,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 1416687948}
 --- !u!1 &1418491711 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100012, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -24702,7 +24612,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 10
-  child_tag: bench_part
   score: 5
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -24710,7 +24619,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1546160886296192, guid: 1f9b7fbaa7d3f6b4c9b085bc57de061a,
     type: 2}
-  self: {fileID: 1443535451}
 --- !u!1001 &1448185640
 Prefab:
   m_ObjectHideFlags: 0
@@ -26614,7 +26522,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -26622,7 +26529,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 1546912587}
 --- !u!1 &1548239028 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100018, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -26762,7 +26668,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -26770,7 +26675,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 1564449590}
 --- !u!1 &1567985682 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100034, guid: 71bd0e524fc3dbe458f3b1ec5849c708,
@@ -28140,7 +28044,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 17
-  child_tag: bench_part
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -28148,7 +28051,6 @@ MonoBehaviour:
   prefabDestroyTime: 3
   debrisPrefab: {fileID: 1546160886296192, guid: 1f9b7fbaa7d3f6b4c9b085bc57de061a,
     type: 2}
-  self: {fileID: 1634456802}
 --- !u!114 &1634456819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30339,7 +30241,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 13
-  child_tag: office_desk
   score: 30
   blowout_multiplier: 3.5
   blowout_radius: 4
@@ -30347,7 +30248,6 @@ MonoBehaviour:
   prefabDestroyTime: 3
   debrisPrefab: {fileID: 1306400732486094, guid: 9114d86c9a550d74d922a0d1287c9047,
     type: 2}
-  self: {fileID: 1699385329}
 --- !u!1 &1700810684 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100008, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -31596,7 +31496,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -31604,7 +31503,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 1799249313}
 --- !u!1 &1801298140 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100004, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -32271,7 +32169,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 13
-  child_tag: office_desk
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 4
@@ -32279,7 +32176,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1306400732486094, guid: 9114d86c9a550d74d922a0d1287c9047,
     type: 2}
-  self: {fileID: 1824259012}
 --- !u!1 &1826909979 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100008, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -34123,7 +34019,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -34131,7 +34026,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 1980926630}
 --- !u!1 &1983935925 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -34149,7 +34043,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -34157,7 +34050,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 1983935925}
 --- !u!1 &1992563340 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100012, guid: 71bd0e524fc3dbe458f3b1ec5849c708,
@@ -35495,7 +35387,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 13
-  child_tag: office_desk
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 4
@@ -35503,7 +35394,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1306400732486094, guid: 9114d86c9a550d74d922a0d1287c9047,
     type: 2}
-  self: {fileID: 2050841216}
 --- !u!1 &2054372919 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100008, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -36650,7 +36540,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -36658,7 +36547,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 2094456380}
 --- !u!1 &2095181876
 GameObject:
   m_ObjectHideFlags: 0
@@ -36925,7 +36813,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapse_point: 7.5
-  child_tag: chair_parts
   score: 3
   blowout_multiplier: 2.75
   blowout_radius: 3
@@ -36933,7 +36820,6 @@ MonoBehaviour:
   prefabDestroyTime: 10
   debrisPrefab: {fileID: 1933149881910252, guid: d9eb100e2856c2143b5a7ec3a8fcd9cb,
     type: 2}
-  self: {fileID: 2098075963}
 --- !u!1 &2101302887 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100032, guid: 71bd0e524fc3dbe458f3b1ec5849c708,

@@ -11,6 +11,7 @@ TagManager:
   - monkeybar_parts
   - office_desk
   - hit sound
+  - bench_part1
   layers:
   - Default
   - TransparentFX

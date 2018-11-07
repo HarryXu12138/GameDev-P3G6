@@ -32,12 +32,13 @@ public class Mesh_child_script : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        parent = transform.parent.gameObject;
         destroyed = false;
         da_ball = GameObject.Find("da_ball");
         audio = GameObject.Find("Audio Controller");
         //components = GameObject.FindGameObjectsWithTag(group);
         rb = GetComponent<Rigidbody>();
-        transform.parent = parent.transform;
+
         //transform.SetParent(parent.transform);
         
     }
@@ -271,10 +272,12 @@ public class Mesh_child_script : MonoBehaviour
         timeControl = go;
     }
     */
+    /*
     public void Set_parent(GameObject go)
     {
         parent = go;
     }
+    */
 }
 
 
