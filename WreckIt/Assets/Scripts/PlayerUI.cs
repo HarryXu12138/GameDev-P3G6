@@ -18,7 +18,7 @@ public class PlayerUI : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         ReturnButton.onClick.AddListener(ClickReturnButton);
-        timer_number = 5;
+        timer_number = 180;
         result_window.SetActive(false);
     }
 	

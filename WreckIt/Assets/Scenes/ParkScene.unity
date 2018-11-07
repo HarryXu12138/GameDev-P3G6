@@ -3977,11 +3977,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1781750121786030, guid: b5e0256cc9297a6489bdd1f157d6c6aa, type: 2}
       propertyPath: m_Name
-      value: UI_Canvas (1)
+      value: UI_Canvas
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5e0256cc9297a6489bdd1f157d6c6aa, type: 2}
   m_IsPrefabAsset: 0
+--- !u!114 &204681671 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114104763146038720, guid: b5e0256cc9297a6489bdd1f157d6c6aa,
+    type: 2}
+  m_PrefabInternal: {fileID: 204681670}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+--- !u!114 &204681672 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114717030184892798, guid: b5e0256cc9297a6489bdd1f157d6c6aa,
+    type: 2}
+  m_PrefabInternal: {fileID: 204681670}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &210981984 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100006, guid: 71bd0e524fc3dbe458f3b1ec5849c708,
@@ -11290,12 +11302,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &845733224 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114336585459687244, guid: b5e0256cc9297a6489bdd1f157d6c6aa,
-    type: 2}
-  m_PrefabInternal: {fileID: 204681670}
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &887976922
 GameObject:
   m_ObjectHideFlags: 0
@@ -13989,8 +13995,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedX: 2
   speedY: 2
-  score_text: {fileID: 845733224}
-  target_score_text: {fileID: 1291341909}
+  score_text: {fileID: 204681672}
+  target_score_text: {fileID: 204681671}
   speed: 0.1
 --- !u!1001 &1194670296
 Prefab:
@@ -14161,12 +14167,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1291341909 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114257087888893702, guid: b5e0256cc9297a6489bdd1f157d6c6aa,
-    type: 2}
-  m_PrefabInternal: {fileID: 204681670}
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1001 &1313510291
 Prefab:
   m_ObjectHideFlags: 0

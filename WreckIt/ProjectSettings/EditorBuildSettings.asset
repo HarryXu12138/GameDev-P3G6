@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/OfficeScene_test.unity
     guid: 18b04ce69400da5459b35f35e3a70760
+  - enabled: 1
+    path: Assets/Scenes/ParkScene.unity
+    guid: bc05731a5ccf4844a8e5b32497e21ee8
+  - enabled: 1
+    path: Assets/Scenes/HomeScene.unity
+    guid: b7adaf7efb84e4f4980d56dff81efed8
   m_configObjects: {}
