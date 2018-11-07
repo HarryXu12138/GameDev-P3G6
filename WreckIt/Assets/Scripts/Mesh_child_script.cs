@@ -19,9 +19,9 @@ public class Mesh_child_script : MonoBehaviour
     private GameObject bb;
     private int prefabNumbers;
     private float prefabDestroyTime;
-    public float spread;
-    public float shift;
-    private float impulseMagnitude = 1.0f;
+    private float spread = 17.0f;
+    private float shift = 1f;
+    private float impulseMagnitude = 1.6f;
     //public float breakpoint;
     private float blowout_radius;
     private bool trigger = false;
@@ -97,7 +97,7 @@ public class Mesh_child_script : MonoBehaviour
 
     private void createDebris(Vector3 force)
     {
-        Debug.Log("da");
+        //Debug.Log("da");
         //timeControl.SendMessage("slowDown", SendMessageOptions.DontRequireReceiver);
         int counter = prefabNumbers;
         /*
@@ -115,120 +115,95 @@ public class Mesh_child_script : MonoBehaviour
         {
             GameObject temp = Instantiate<GameObject>(debriPrefab);
             temp.transform.position = transform.position + new Vector3(0, 0.3f, 0);
-            /*
-            Debug.Log(transform.position);
+            
+            //Debug.Log(transform.position);
             
             //check the direction
             Vector3 tempF = force;
             //print(Mathf.Abs(tempF.x - 0f) < 0.01f);
-            float maxPower = Mathf.Max(tempF.x, tempF.y, tempF.z);
-            if (maxPower == tempF.x)
+            float maxPower = Mathf.Max(Mathf.Abs(tempF.x), Mathf.Abs(tempF.y), Mathf.Abs(tempF.z));
+            if (maxPower == Mathf.Abs(tempF.x))
             {
-                //print("work");
-                if (Mathf.Max(tempF.z, tempF.y) == tempF.z)
+                if (Mathf.Max(Mathf.Abs(tempF.z), Mathf.Abs(tempF.y)) == Mathf.Abs(tempF.z))
                 {
-                    tempF.z += Random.Range(-spread + tempF.z * 10f, spread + tempF.z * 10f);
-                    tempF.y += Random.Range(-spread, spread);
-                    if (tempF.y < -10.0f)
+                    // print("work");
+                    tempF.z += Random.Range(-spread + tempF.z , spread + tempF.z );
+                    tempF.y += Random.Range(0, spread*1.25f);
+                    if (tempF.y < 2.0f)
                     {
-                        tempF.y = -tempF.y;
-                        if (tempF.y < 2.0f)
-                        {
-                            tempF.y = 2.0f;
-                        }
-                        if (tempF.y > tempF.z)
-                        {
-                            tempF.y = tempF.z;
-                        }
+                        tempF.y = 2.0f;
+                        
                     }
+                    
                 }
                 else
                 {
+                    //print("work");
                     tempF.z += Random.Range(-spread, spread);
-                    tempF.y += Random.Range(-spread + tempF.y * 10f, spread + tempF.y * 10f);
-                    if (tempF.y < -10.0f)
+                    tempF.y += Random.Range(0,spread*1.25f);
+                    if (tempF.y < 2.0f)
                     {
-                        tempF.y = -tempF.y;
-                        if (tempF.y < 2.0f)
-                        {
-                            tempF.y = 2.0f;
-                        }
-                        if (tempF.y > tempF.z)
-                        {
-                            tempF.y = tempF.z;
-                        }
+                        tempF.y = 2.0f;
+                        
                     }
+                    
                 }
 
 
 
             }
-            else if (maxPower == tempF.z)
+            else if (maxPower == Mathf.Abs(tempF.z))
             {
-                if (Mathf.Max(tempF.x, tempF.y) == tempF.x)
+                if (Mathf.Max(Mathf.Abs(tempF.x), Mathf.Abs(tempF.y)) == Mathf.Abs(tempF.x))
                 {
-                    tempF.x += Random.Range(-spread + tempF.x * shift, spread + tempF.x * shift);
-                    tempF.y += Random.Range(-spread, spread);
-                    if (tempF.y < -10.0f)
+                    //print("work");
+                    tempF.x += Random.Range(-spread + tempF.x , spread + tempF.x );
+                    tempF.y += Random.Range(0, spread * 1.25f);
+                    if (tempF.y < 2.0f)
                     {
-                        tempF.y = -tempF.y;
-                        if (tempF.y < 2.0f)
-                        {
-                            tempF.y = 2.0f;
-                        }
-                        if (tempF.y > tempF.z)
-                        {
-                            tempF.y = tempF.z;
-                        }
+                        tempF.y = 2.0f;
+
                     }
+
                 }
                 else
                 {
+                    //print("work");
                     tempF.x += Random.Range(-spread, spread);
-                    tempF.y += Random.Range(-spread + tempF.y * shift, spread + tempF.y * shift);
-                    if (tempF.y < -10.0f)
+                    tempF.y += Random.Range(0, spread * 1.25f);
+                    if (tempF.y < 2.0f)
                     {
-                        tempF.y = -tempF.y;
-                        if (tempF.y < 2.0f)
-                        {
-                            tempF.y = 2.0f;
-                        }
-                        if (tempF.y > tempF.z)
-                        {
-                            tempF.y = tempF.z;
-                        }
+                        tempF.y = 2.0f;
+
                     }
+
                 }
 
             }
             else
             {
-                if (Mathf.Max(tempF.x, tempF.z) == tempF.x)
+                //print("work");
+                if (Mathf.Max(Mathf.Abs(tempF.x), Mathf.Abs(tempF.z)) == Mathf.Abs(tempF.x))
                 {
                     tempF.z += Random.Range(-spread, spread);
-                    tempF.x += Random.Range(-spread + tempF.x * shift, spread + tempF.x * shift);
+                    tempF.x += Random.Range(-spread + tempF.x  , spread + tempF.x );
                 }
                 else
                 {
-                    tempF.z += Random.Range(-spread + tempF.z * shift, spread + tempF.z * shift);
+                    tempF.z += Random.Range(-spread + tempF.z , spread + tempF.z );
                     tempF.x += Random.Range(-spread, spread);
                 }
-
-            }
-
-            if (tempF.y < -10.0f)
-            {
-                tempF.y = -tempF.y;
                 if (tempF.y < 2.0f)
                 {
                     tempF.y = 2.0f;
+
                 }
-                if (tempF.y > maxPower)
-                {
-                    tempF.y = maxPower;
-                }
+                
             }
-            */
+
+           
+            
+            /*
             //Vector3 blowout_up = force.normalized;
             Vector3 blowout_up = Vector3.up;
             Vector3 blowout_xz = Vector3.right * (Random.Range(0.0f, blowout_radius) * blowout_multiplier);
@@ -237,10 +212,10 @@ public class Mesh_child_script : MonoBehaviour
             blowout.Normalize();
             impulseMagnitude = Random.Range(0.0f, force.magnitude) * blowout_multiplier;
             blowout *= impulseMagnitude;
-
-            //tempF.Scale(new Vector3(1f * impulseMagnitude, 1f * impulseMagnitude, 1f * impulseMagnitude));
-            //print(tempF);
-            addForceToPrefab(temp, blowout);
+            */
+            tempF.Scale(new Vector3(1f * impulseMagnitude, 1f * impulseMagnitude*1.5f, 1f * impulseMagnitude));
+            print(counter + ": " + tempF);
+            addForceToPrefab(temp, tempF);
             Destroy(temp, prefabDestroyTime);
             counter--;
 
