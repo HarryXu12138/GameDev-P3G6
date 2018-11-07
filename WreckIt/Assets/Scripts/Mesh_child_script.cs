@@ -27,11 +27,14 @@ public class Mesh_child_script : MonoBehaviour
     private bool trigger = false;
     private float blowout_multiplier;
     //private GameObject timeControl = null;
+
+    private GameObject audio;
     // Use this for initialization
     void Start()
     {
         destroyed = false;
         da_ball = GameObject.Find("da_ball");
+        audio = GameObject.Find("Audio Controller");
         //components = GameObject.FindGameObjectsWithTag(group);
         rb = GetComponent<Rigidbody>();
         transform.parent = parent.transform;
@@ -43,6 +46,8 @@ public class Mesh_child_script : MonoBehaviour
     {
         if(collision.impulse.magnitude > collapse_point && !destroyed){
             destroyed = true;
+            int sound_id = (int)Random.Range(0.0f, 13.1f);
+            audio.SendMessage("PlayHitSound", sound_id);
             //Debug.Log(collision.impulse.magnitude);
             //transform.SetParent(null);
           

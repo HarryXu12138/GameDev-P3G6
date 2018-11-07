@@ -26,12 +26,13 @@ public class ball_script : MonoBehaviour {
     private GameObject da_cam;
     private Rigidbody rb;
     private GameObject[] in_game_objs;
-
+    private GameObject sound_con;
 
     //private static Rigidbody cam_rb;
     private bool thrown;
     // Use this for initialization
     void Start () {
+        sound_con = GameObject.Find("Audio Controller");
         in_game_objs = GameObject.FindGameObjectsWithTag("Destroyable Obj");
         da_pick_text_panel.SetActive(false);
         power_up = true;
@@ -51,7 +52,10 @@ public class ball_script : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         //Debug.Log(da_cam.GetComponent<Transform>().eulerAngles.y);
-
+        if (!pickable && rb.velocity.magnitude < 2)
+        {
+            pickable = true;
+        }
         if(!thrown){
             rb.isKinematic = true;
             rb.detectCollisions = false;
@@ -84,6 +88,8 @@ public class ball_script : MonoBehaviour {
 
 
         if (Input.GetKeyUp(KeyCode.E) && !thrown){
+            int sound_id = (int)UnityEngine.Random.Range(0.0f, 2.1f);
+            sound_con.SendMessage("PlayThrowSound", sound_id);
             thrown = true;
             rb.isKinematic = false;
             transform.SetParent(null);
@@ -114,6 +120,10 @@ public class ball_script : MonoBehaviour {
                     pick();
                 }
             }
+            else
+            {
+                da_pick_text_panel.SetActive(false);
+            }
         }
 
       
@@ -134,12 +144,7 @@ public class ball_script : MonoBehaviour {
         rb.useGravity = false;
     }
 
-    private void OnCollisionStay(Collision c)
-    {
-        
-            pickable = true;
-        
-    }
+    
     public bool return_thrown(){
         return thrown;
     }

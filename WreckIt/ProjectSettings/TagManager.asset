@@ -10,6 +10,7 @@ TagManager:
   - Debris
   - monkeybar_parts
   - office_desk
+  - hit sound
   layers:
   - Default
   - TransparentFX
