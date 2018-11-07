@@ -37,24 +37,39 @@ public class cam_script : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        
+        Vector3 temp = transform.position;
+        if(transform.position.x > 17){
+			temp.x = 16.8f;
+		}
+		if(transform.position.x < -22.2){
+			temp.x = -22.0f;
+		}
+		if(transform.position.z < -25.5){
+			temp.z = -25.3f;
+		}
+		if(transform.position.z > 14.6){
+			temp.z = 14.4f;
+		}
+        transform.position = temp;
         score_text.text = score.ToString();
         if(score >= target_score){
             score_text.color = Color.green;
         }
         //this is the code to rotate camera
         //only rotates when
+		/*
         if (Input.mousePosition.x > 0 && Input.mousePosition.x < screenWidth &&
             Input.mousePosition.y > 0 && Input.mousePosition.y < screenHeight && 
             Input.GetKey(KeyCode.Mouse0))
         {
+		*/
 
             angleX += speedX * Input.GetAxis("Mouse X");
             angleY -= speedY * Input.GetAxis("Mouse Y");
 
             //don't ask why Y goes before X, that's how it works
             transform.eulerAngles = new Vector3(angleY, angleX, 0);
-        }
+        //}
         //this is the code to move camera on the xz plane
         Vector3 p_Velocity = new Vector3();
         if (Input.GetKey(KeyCode.W))
