@@ -25107,6 +25107,48 @@ FixedJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!1001 &1496084607
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1648016825}
+    m_Modifications:
+    - target: {fileID: 400002, guid: 00ae8dbea80be4a20a2b4830170defcb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 00ae8dbea80be4a20a2b4830170defcb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 00ae8dbea80be4a20a2b4830170defcb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 00ae8dbea80be4a20a2b4830170defcb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 00ae8dbea80be4a20a2b4830170defcb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 00ae8dbea80be4a20a2b4830170defcb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 00ae8dbea80be4a20a2b4830170defcb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 00ae8dbea80be4a20a2b4830170defcb, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 00ae8dbea80be4a20a2b4830170defcb, type: 3}
+  m_IsPrefabAsset: 0
 --- !u!1 &1496928649 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100040, guid: 71bd0e524fc3dbe458f3b1ec5849c708,
@@ -28608,6 +28650,11 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!4 &1648016825 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4961066110263666, guid: 1f1a01eb1387e1343b00642ee0f8e7b1,
+    type: 2}
+  m_PrefabInternal: {fileID: 1152143574}
 --- !u!1 &1656954378 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100018, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,

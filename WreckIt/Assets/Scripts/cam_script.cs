@@ -37,18 +37,20 @@ public class cam_script : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        Vector3 temp = transform.position;
         if(transform.position.x > 17){
-			transform.position.x = 16.8f;
+			temp.x = 16.8f;
 		}
-		if(transform.position.x < -22){
-			transform.position.x = -21.8f;
+		if(transform.position.x < -22.2){
+			temp.x = -22.0f;
 		}
 		if(transform.position.z < -25.5){
-			transform.position.z = -25.3f;
+			temp.z = -25.3f;
 		}
-		if(transform.position.z > 15){
-			transform.position.z = 14.8f;
+		if(transform.position.z > 14.6){
+			temp.z = 14.4f;
 		}
+        transform.position = temp;
         score_text.text = score.ToString();
         if(score >= target_score){
             score_text.color = Color.green;
@@ -70,19 +72,19 @@ public class cam_script : MonoBehaviour {
         //}
         //this is the code to move camera on the xz plane
         Vector3 p_Velocity = new Vector3();
-        if (Input.GetKey(KeyCode.W) && transform.position.x < 17 && transform.position.x > -22 && transform.position.z > -25.5 && transform.position.z < 15)
+        if (Input.GetKey(KeyCode.W))
         {
             p_Velocity += new Vector3(0, 0, 1);
         }
-        if (Input.GetKey(KeyCode.S) && transform.position.x < 17 && transform.position.x > -22 && transform.position.z > -25.5 && transform.position.z < 15)
+        if (Input.GetKey(KeyCode.S))
         {
             p_Velocity += new Vector3(0, 0, -1);
         }
-        if (Input.GetKey(KeyCode.A) && transform.position.x < 17 && transform.position.x > -22 && transform.position.z > -25.5 && transform.position.z < 15)
+        if (Input.GetKey(KeyCode.A))
         {
             p_Velocity += new Vector3(-1, 0, 0);
         }
-        if (Input.GetKey(KeyCode.D) && transform.position.x < 17 && transform.position.x > -22 && transform.position.z > -25.5 && transform.position.z < 15)
+        if (Input.GetKey(KeyCode.D))
         {
             p_Velocity += new Vector3(1, 0, 0);
         }
