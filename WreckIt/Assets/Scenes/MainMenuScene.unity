@@ -424,7 +424,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartButton: {fileID: 1313048157}
-  HelpButton: {fileID: 0}
 --- !u!1 &1313048155
 GameObject:
   m_ObjectHideFlags: 0
