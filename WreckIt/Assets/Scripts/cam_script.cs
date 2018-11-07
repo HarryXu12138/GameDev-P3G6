@@ -37,39 +37,52 @@ public class cam_script : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        
+        if(transform.position.x > 17){
+			transform.position.x = 16.8f;
+		}
+		if(transform.position.x < -22){
+			transform.position.x = -21.8f;
+		}
+		if(transform.position.z < -25.5){
+			transform.position.z = -25.3f;
+		}
+		if(transform.position.z > 15){
+			transform.position.z = 14.8f;
+		}
         score_text.text = score.ToString();
         if(score >= target_score){
             score_text.color = Color.green;
         }
         //this is the code to rotate camera
         //only rotates when
+		/*
         if (Input.mousePosition.x > 0 && Input.mousePosition.x < screenWidth &&
             Input.mousePosition.y > 0 && Input.mousePosition.y < screenHeight && 
             Input.GetKey(KeyCode.Mouse0))
         {
+		*/
 
             angleX += speedX * Input.GetAxis("Mouse X");
             angleY -= speedY * Input.GetAxis("Mouse Y");
 
             //don't ask why Y goes before X, that's how it works
             transform.eulerAngles = new Vector3(angleY, angleX, 0);
-        }
+        //}
         //this is the code to move camera on the xz plane
         Vector3 p_Velocity = new Vector3();
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W) && transform.position.x < 17 && transform.position.x > -22 && transform.position.z > -25.5 && transform.position.z < 15)
         {
             p_Velocity += new Vector3(0, 0, 1);
         }
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.S) && transform.position.x < 17 && transform.position.x > -22 && transform.position.z > -25.5 && transform.position.z < 15)
         {
             p_Velocity += new Vector3(0, 0, -1);
         }
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A) && transform.position.x < 17 && transform.position.x > -22 && transform.position.z > -25.5 && transform.position.z < 15)
         {
             p_Velocity += new Vector3(-1, 0, 0);
         }
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.D) && transform.position.x < 17 && transform.position.x > -22 && transform.position.z > -25.5 && transform.position.z < 15)
         {
             p_Velocity += new Vector3(1, 0, 0);
         }
