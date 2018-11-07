@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -145,8 +145,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &16867824
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -191,8 +189,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &22720636
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -278,8 +274,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &26119607
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -363,8 +357,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &33145591
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -448,8 +440,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &41771186
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -524,8 +514,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &49919212
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -583,8 +571,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!54 &52281604
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -659,8 +645,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &52894292
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -705,8 +689,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &54994788
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -766,8 +748,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &59222383
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -827,8 +807,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &62217684
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -888,8 +866,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &63958517
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -975,8 +951,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &64320663
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1023,8 +997,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &70488117
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1125,8 +1097,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &72064993
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -1272,8 +1242,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &74438909
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1374,8 +1342,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &75703774
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -1420,8 +1386,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &79220932
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1483,8 +1447,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &82243318
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -1544,8 +1506,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &86268394
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -1590,8 +1550,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &92400649
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -1651,8 +1609,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &96732389
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1738,8 +1694,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &105273607
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1817,6 +1771,7 @@ GameObject:
   m_Component:
   - component: {fileID: 109365748}
   - component: {fileID: 109365747}
+  - component: {fileID: 109365749}
   m_Layer: 0
   m_Name: bgm
   m_TagString: Untagged
@@ -1932,6 +1887,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &109365749
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 109365746}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6f5155ceda175f743949ec1f36ae6e0e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &111202963 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100008, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -1949,8 +1922,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &111202966
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -2010,8 +1981,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &131510224
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2071,8 +2040,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &135316178
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2186,8 +2153,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &138941793
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -2247,8 +2212,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &140965254
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2349,8 +2312,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &141107791
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -2395,8 +2356,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &141896139
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -2497,8 +2456,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &146349455
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -2556,8 +2513,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &153822148
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -2617,8 +2572,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &169421300
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -2678,8 +2631,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &169625040
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2739,8 +2690,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &169777316
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2800,8 +2749,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &173286755
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -2876,8 +2823,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &173406229
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3019,8 +2964,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &178489144
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -3078,8 +3021,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &180053397
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -3165,8 +3106,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &194655528
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3226,8 +3165,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &195160936
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3287,8 +3224,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &199402024
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -3363,8 +3298,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &201570688
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3463,8 +3396,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &208140905
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -3524,8 +3455,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &211660386
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -3611,8 +3540,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &216056188
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -3687,8 +3614,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &222860035
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -3871,8 +3796,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &234622274
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3973,8 +3896,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &235542382
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -4034,8 +3955,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &236789898
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -4080,8 +3999,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &238208571
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4167,8 +4084,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &239790881
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4314,8 +4229,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &253516964
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4416,8 +4329,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &257954870
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4510,8 +4421,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &270203066
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -4571,8 +4480,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &274463507
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4658,8 +4565,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &275762069
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4853,8 +4758,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &284942241
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4914,8 +4817,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &286370580
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -4975,8 +4876,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &289223336
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -5036,8 +4935,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &289682864
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5112,8 +5009,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &296480599
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5264,8 +5159,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &300536066
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -5325,8 +5218,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &304067543
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5388,8 +5279,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &311589192
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -5447,8 +5336,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &316782829
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5508,8 +5395,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &317674690
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5748,8 +5633,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &327350775
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -5835,8 +5718,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &327442255
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -5911,8 +5792,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &331366481
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -5957,8 +5836,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &334901197
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -6018,8 +5895,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &338973261
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -6105,8 +5980,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &339005322
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6153,8 +6026,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &340848534
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6214,8 +6085,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &348898462
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6275,8 +6144,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &353743747
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6351,8 +6218,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &355532587
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -6412,8 +6277,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &358461004
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -6482,8 +6345,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &359331381
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6567,8 +6428,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &364270435
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6669,8 +6528,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &371043931
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6715,8 +6572,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &381451906
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6826,8 +6681,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &383961614
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -6902,8 +6755,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &387394970
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -6963,8 +6814,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &390404655
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -7154,8 +7003,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &404173686
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7215,8 +7062,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &415249505
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7291,8 +7136,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &420794077
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -7337,8 +7180,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &421950264
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7439,8 +7280,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &423750034
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -7580,8 +7419,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &432569776
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7641,8 +7478,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &439532898
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7741,8 +7576,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &449160593
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -7787,8 +7620,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &449322840
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -7889,8 +7720,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &451776507
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -8002,8 +7831,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &458667783
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8089,8 +7916,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &460299054
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -8340,8 +8165,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &467085378
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -8427,8 +8250,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &467704421
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8503,8 +8324,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &468822254
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -8549,8 +8368,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &470295790
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8636,8 +8453,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &470780631
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -8697,8 +8512,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &471152005
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8808,8 +8621,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &480489050
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9005,8 +8816,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &490054658
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -9092,8 +8901,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &492045387
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9153,8 +8960,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &494775703
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9240,8 +9045,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &505075858
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9327,8 +9130,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &505268092
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9403,8 +9204,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &505473672
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -9449,8 +9248,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &505975040
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9510,8 +9307,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &506299132
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9636,8 +9431,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &507872127
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -9695,8 +9488,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &514924311
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -9756,8 +9547,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &521733449
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9817,8 +9606,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &523777639
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -9878,8 +9665,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &524103940
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9963,8 +9748,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &537134535
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -10024,8 +9807,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &538364760
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -10085,8 +9866,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &543417325
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -10146,8 +9925,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &543695602
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10233,8 +10010,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &546772460
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -10309,8 +10084,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &552038190
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10355,8 +10128,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &553636474
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10470,8 +10241,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &554987432
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10557,8 +10326,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &555356334
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10618,8 +10385,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &561925278
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -10705,8 +10470,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &564607623
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10872,8 +10635,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &592414938
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10935,8 +10696,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &596152249
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -10994,8 +10753,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &607354117
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -11055,8 +10812,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &610015904
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11157,8 +10912,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &611407086
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11218,8 +10971,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &621561445
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -11359,8 +11110,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &636066578
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11446,8 +11195,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &640974168
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11507,8 +11254,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &642828931
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11609,8 +11354,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &644573301
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -11655,8 +11398,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &647425394
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -11716,8 +11457,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &651162839
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -11803,8 +11542,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &657677559
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11951,8 +11688,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &661915827
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -12038,8 +11773,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &663051407
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -12099,8 +11832,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &666447951
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -12160,8 +11891,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &667361047
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -12221,8 +11950,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &673225020
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12282,8 +12009,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &676757774
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -12369,8 +12094,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &680473133
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -12471,8 +12194,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &683461331
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -12517,8 +12238,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &687200935
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -12604,8 +12323,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &687750870
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12734,8 +12451,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &701311380
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -12911,8 +12626,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &719743278
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12972,8 +12685,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &727532422
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13074,8 +12785,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &728337257
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -13157,8 +12866,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &744798668
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13218,8 +12925,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &754989598
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -13279,8 +12984,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &759558868
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13366,8 +13069,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &762907123
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13442,8 +13143,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &767514045
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -13488,8 +13187,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &767842639
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -13549,8 +13246,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &768495697
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13636,8 +13331,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &770649562
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13745,8 +13438,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &781588919
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13832,8 +13523,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &786740582
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13893,8 +13582,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &791599518
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13995,8 +13682,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &792125663
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -14056,8 +13741,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &793982104
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -14102,8 +13785,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &794581326
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -14163,8 +13844,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &795828767
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14250,8 +13929,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &800236589
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -14335,8 +14012,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &814574958
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14422,8 +14097,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &815312134
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -14498,8 +14171,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &823106868
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -14622,8 +14293,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &831796540
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -14683,8 +14352,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &834220741
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14759,8 +14426,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &834980749
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -14844,8 +14509,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &840572768
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -14903,8 +14566,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &844473856
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14990,8 +14651,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &855991519
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15077,8 +14736,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &864323272
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -15138,8 +14795,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &869516588
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15199,8 +14854,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &869601621
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -15260,8 +14913,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &878012182
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15431,8 +15082,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &886670255
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15492,8 +15141,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &889228315
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -15577,8 +15224,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &892212817
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -15679,8 +15324,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &892295891
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -15738,8 +15381,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &892310623
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15799,8 +15440,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &895317603
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15860,8 +15499,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &898083610
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15921,8 +15558,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &899415493
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -16047,8 +15682,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &909314883
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -16093,8 +15726,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &910549428
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16180,8 +15811,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &911599677
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16265,8 +15894,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &926347386
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -16367,8 +15994,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &936204843
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16413,8 +16038,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &937971216
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16500,8 +16123,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &940136358
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16561,8 +16182,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &942713945
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -16648,8 +16267,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &944037039
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -16724,8 +16341,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &946653533
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -16794,8 +16409,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &957166029
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16855,8 +16468,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &969734412
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16916,8 +16527,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &973698862
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16977,8 +16586,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &978083288
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -17038,8 +16645,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &988624847
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -17114,8 +16719,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1000061538
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -17160,8 +16763,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1000593219
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17208,8 +16809,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1002255124
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -17269,8 +16868,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1002407308
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17330,8 +16927,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1004092446
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17593,8 +17188,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1019068303
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17678,8 +17271,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1020032980
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -17829,8 +17420,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1032636145
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -17888,8 +17477,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1038415597
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17949,8 +17536,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1042142748
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18108,8 +17693,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1053126992
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -18263,8 +17846,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1073205560
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -18339,8 +17920,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1075331201
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -18424,8 +18003,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1077595510
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -18485,8 +18062,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1080033716
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -18555,8 +18130,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1086654130
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18657,8 +18230,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1089799031
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -18703,8 +18274,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1093276044
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -18846,8 +18415,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1097393353
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18933,8 +18500,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1100908818
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -19044,8 +18609,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1104327598
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -19120,8 +18683,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1105114194
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -19214,8 +18775,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1121229446
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19290,8 +18849,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1123395858
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19360,8 +18917,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1138408198
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -19421,8 +18976,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1147255026
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -19536,8 +19089,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1148697098
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19703,8 +19254,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1155995384
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -19823,8 +19372,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1162471881
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -19882,8 +19429,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1162847401
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19943,8 +19488,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1163923441
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -20019,8 +19562,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1173742934
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20065,8 +19606,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1178196114
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20165,8 +19704,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1182565628
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -20211,8 +19748,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1186631554
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20272,8 +19807,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1192205245
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20348,8 +19881,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1198775223
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -20394,8 +19925,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1202388568
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20549,8 +20078,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1207432246
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20651,8 +20178,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1209189292
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20712,8 +20237,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1211161814
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -20758,8 +20281,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1213179635
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20834,8 +20355,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1214080042
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -20895,8 +20414,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1221374022
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -20941,8 +20458,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1222755682
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -21267,8 +20782,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1236854480
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -21328,8 +20841,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1243164306
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -21387,8 +20898,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1245234835
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21502,8 +21011,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1259236974
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -21589,8 +21096,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1260112808
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -21650,8 +21155,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1261251556
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21957,8 +21460,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1262051044
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -22115,8 +21616,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1264272824
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -22176,8 +21675,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1271913198
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22222,8 +21719,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1272931729
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22283,8 +21778,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1282679196
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22392,8 +21885,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1289348068
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -22453,8 +21944,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1294619517
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22529,8 +22018,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1297539758
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22575,8 +22062,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1300474550
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22638,8 +22123,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1303628374
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -22790,8 +22273,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1315800028
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -22851,8 +22332,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1320372515
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23046,8 +22525,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1324430663
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23131,8 +22608,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1332098970
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -23246,8 +22721,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1347833326
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -23307,8 +22780,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1353287577
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23368,8 +22839,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1355454358
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23429,8 +22898,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1358814785
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -23490,8 +22957,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1360706896
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23551,8 +23016,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1375767361
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23612,8 +23075,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1379064501
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -23673,8 +23134,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1379673333
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23797,8 +23256,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1381855446
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -23843,8 +23300,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1402673876
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -23919,8 +23374,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1408476734
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -23989,8 +23442,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1418491714
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -24065,8 +23516,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1419619533
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -24126,8 +23575,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1420755558
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -24172,8 +23619,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1421412732
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -24233,8 +23678,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1423362270
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -24309,8 +23752,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1425314394
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -24368,8 +23809,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1426715688
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -24429,8 +23868,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1429054396
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24490,8 +23927,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1436687500
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -24551,8 +23986,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1439054963
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24718,8 +24151,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1448296832
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24779,8 +24210,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1454879539
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24866,8 +24295,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1455736699
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24942,8 +24369,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1457593079
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24988,8 +24413,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1458642130
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -25064,8 +24487,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1459632401
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -25123,8 +24544,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1466802726
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25210,8 +24629,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1467088523
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25258,8 +24675,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1468304925
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -25319,8 +24734,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1487136116
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25406,8 +24819,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1488598065
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25688,8 +25099,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1495562059
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25717,6 +25126,52 @@ FixedJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!1001 &1496084607
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1648016825}
+    m_Modifications:
+    - target: {fileID: 400002, guid: 00ae8dbea80be4a20a2b4830170defcb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 00ae8dbea80be4a20a2b4830170defcb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 00ae8dbea80be4a20a2b4830170defcb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 00ae8dbea80be4a20a2b4830170defcb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 00ae8dbea80be4a20a2b4830170defcb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 00ae8dbea80be4a20a2b4830170defcb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 00ae8dbea80be4a20a2b4830170defcb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 00ae8dbea80be4a20a2b4830170defcb, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 00ae8dbea80be4a20a2b4830170defcb, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 6f5155ceda175f743949ec1f36ae6e0e, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 00ae8dbea80be4a20a2b4830170defcb, type: 3}
+  m_IsPrefabAsset: 0
 --- !u!1 &1496928649 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100040, guid: 71bd0e524fc3dbe458f3b1ec5849c708,
@@ -25734,8 +25189,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1496928652
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25795,8 +25248,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1500398447
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25856,8 +25307,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1505112722
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -25917,8 +25366,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1507147347
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26004,8 +25451,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1511210373
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -26091,8 +25536,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1513190516
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -26152,8 +25595,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1518364102
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26239,8 +25680,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1524235401
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26300,8 +25739,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1526312616
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26361,8 +25798,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1538760927
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26463,8 +25898,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1543393656
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -26546,8 +25979,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1548239031
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26607,8 +26038,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1551040061
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -26707,8 +26136,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1567985685
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26753,8 +26180,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1569920515
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26814,8 +26239,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1571227461
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26916,8 +26339,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1571255152
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -26962,8 +26383,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1576340403
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27064,8 +26483,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1583479159
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -27125,8 +26542,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1584679832
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27225,8 +26640,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1595263425
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27497,8 +26910,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1596257645
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27558,8 +26969,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1596814588
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27619,8 +27028,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1612986043
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -27680,8 +27087,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1613913070
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27741,8 +27146,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1616438448
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -27817,8 +27220,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1633279723
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -28063,8 +27464,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!114 &1634456820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28077,8 +27476,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!114 &1634456821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28091,8 +27488,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!114 &1634456822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28105,8 +27500,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!114 &1634456823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28119,8 +27512,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!114 &1634456824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28133,8 +27524,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!114 &1634456825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28147,8 +27536,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!114 &1634456826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28161,8 +27548,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!114 &1634456827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28175,8 +27560,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!114 &1634456828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28189,8 +27572,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!114 &1634456829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28203,8 +27584,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!114 &1634456830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28217,8 +27596,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!114 &1634456831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28231,8 +27608,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!114 &1634456832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28245,8 +27620,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!114 &1634456833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28259,8 +27632,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1634456836
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -29142,8 +28513,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!54 &1634685002
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29203,8 +28572,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1638096306
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -29264,8 +28631,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1641379017
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29308,6 +28673,11 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!4 &1648016825 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4961066110263666, guid: 1f1a01eb1387e1343b00642ee0f8e7b1,
+    type: 2}
+  m_PrefabInternal: {fileID: 1152143574}
 --- !u!1 &1656954378 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100018, guid: bbc9431b6fe1d7b47a6e15714c0e0b67,
@@ -29325,8 +28695,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1656954381
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29386,8 +28754,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1657747110
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -29462,8 +28828,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1661627093
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29523,8 +28887,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1662384046
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -29655,8 +29017,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1665624848
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29716,8 +29076,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1666336850
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -29792,8 +29150,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1668585508
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -29838,8 +29194,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1670154802
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30182,8 +29536,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1699068957
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -30265,8 +29617,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1700810687
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -30341,8 +29691,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1708449959
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -30400,8 +29748,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1716914531
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -30530,8 +29876,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1719497592
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -30662,8 +30006,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1722282830
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30764,8 +30106,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1723118186
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -30810,8 +30150,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1724323007
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30897,8 +30235,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1730347031
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -30958,8 +30294,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1747833270
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -31019,8 +30353,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1748126479
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31166,8 +30498,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1765366898
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -31313,8 +30643,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1768989884
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31389,8 +30717,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1783305806
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -31435,8 +30761,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1785981824
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31535,8 +30859,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1801298143
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -31596,8 +30918,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1807182076
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -31765,8 +31085,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1811806355
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31828,8 +31146,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1814268479
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -31874,8 +31190,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1815297133
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -31935,8 +31249,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1818830338
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32022,8 +31334,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1822199245
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32193,8 +31503,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1826909982
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -32269,8 +31577,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1835149856
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -32330,8 +31636,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1836080258
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -32389,8 +31693,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1847868094
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32450,8 +31752,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1851374059
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -32511,8 +31811,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1853337917
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32598,8 +31896,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1855362230
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32646,8 +31942,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1857228607
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32707,8 +32001,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1859303036
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32768,8 +32060,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1866057232
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -32844,8 +32134,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1866889475
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -32890,8 +32178,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1872260424
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32951,8 +32237,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1872991877
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -33027,8 +32311,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1887742211
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -33073,8 +32355,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1890872653
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33134,8 +32414,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1901462333
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -33195,8 +32473,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1917779482
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33256,8 +32532,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1918485211
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33433,8 +32707,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1933262566
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -33492,8 +32764,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1934025651
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -33553,8 +32823,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1957834748
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33655,8 +32923,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1960288563
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -33701,8 +32967,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1964607881
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33764,8 +33028,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1965797695
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -33823,8 +33085,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1970520840
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33910,8 +33170,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1972952675
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33958,8 +33216,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1977734151
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34067,8 +33323,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1992563343
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34169,8 +33423,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &1993600598
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -34215,8 +33467,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &1999792155
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34302,8 +33552,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &2007131139
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34389,8 +33637,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &2009462164
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34491,8 +33737,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &2010022282
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -34537,8 +33781,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &2015924391
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -34684,8 +33926,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &2024156092
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34747,8 +33987,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &2030388945
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -34847,8 +34085,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &2034776072
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34923,8 +34159,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &2036384823
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -34969,8 +34203,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &2038689242
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35030,8 +34262,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &2040357806
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -35117,8 +34347,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &2041023593
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -35178,8 +34406,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &2041676145
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -35239,8 +34465,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &2043796587
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -35300,8 +34524,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &2048723987
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -35411,8 +34633,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &2054372922
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -35472,8 +34692,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &2057026922
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35574,8 +34792,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &2060176739
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35635,8 +34851,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &2061053595
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -35767,8 +34981,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &2064126115
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35846,6 +35058,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2066034956}
   - component: {fileID: 2066034955}
+  - component: {fileID: 2066034957}
   m_Layer: 0
   m_Name: Audio Source
   m_TagString: Untagged
@@ -35961,6 +35174,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2066034957
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2066034954}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6f5155ceda175f743949ec1f36ae6e0e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2068232500 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100010, guid: 71bd0e524fc3dbe458f3b1ec5849c708,
@@ -35978,8 +35209,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &2068232503
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -36065,8 +35294,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &2070965622
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36126,8 +35353,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &2075970399
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36202,8 +35427,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &2079180122
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36263,8 +35486,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &2081264279
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -36309,8 +35530,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &2085086008
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -36385,8 +35604,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &2092832026
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -36431,8 +35648,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &2093107081
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36479,8 +35694,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &2093968190
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -36665,8 +35878,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &2096220382
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -36752,8 +35963,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &2096691190
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -36837,8 +36046,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &2101302890
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36898,8 +36105,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &2102354474
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -36959,8 +36164,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &2115574186
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -37145,8 +36348,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &2123785092
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -37191,8 +36392,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!54 &2124271259
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -37265,8 +36464,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &2125873323
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37326,8 +36523,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &2134304510
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37488,8 +36683,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &2140748367
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -37547,8 +36740,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!54 &2142800752
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -37595,8 +36786,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!138 &2143530026
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -37656,8 +36845,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   break_self_joint: 0
-  spread: 0
-  shift: 0
 --- !u!64 &2144593433
 MeshCollider:
   m_ObjectHideFlags: 0
