@@ -20,14 +20,14 @@ public class cam_script : MonoBehaviour {
     public float speed = 0.05f;
 
     private int score;
-    private int target_score;
+    public int target_score;
 
 	// Use this for initialization
     void Start (){
         screenWidth = Screen.width;
         screenHeight = Screen.height;
         //hard-coded
-        target_score = 650;
+        //target_score = 650;
         score = 0;
         score_text.text = score.ToString();
         target_score_text.text = target_score.ToString();
